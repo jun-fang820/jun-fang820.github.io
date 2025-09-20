@@ -31,16 +31,16 @@ Now in my second year at PI Lab, I'm continuing to explore human–computer inte
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IC-NIDC'23</div><img src='images/conf1.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IC-NIDC'23</div><img src='images/conf_1.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **A Blockchain Consensus Protocol Based on Multidimensional Parameter Credit**
 Zexun Jiang, Cong Zha, **Yun Fang**, Hao Yin
-
+**IC-NIDC'23**
 [**Paper**](https://ieeexplore.ieee.org/abstract/document/10388501)
 
-<div>
-<div>
+</div>
+</div>
 
 # 🎖 Honors and Awards
 - *2021.11* **Outstanding Scholarship for Science and Technology Innovation**, Tsinghua University.
