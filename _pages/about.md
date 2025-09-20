@@ -96,7 +96,7 @@ Zexun Jiang, Cong Zha, **Yun Fang**, Hao Yin
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv preprint</div><img src='images/Fsmlp.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv preprint</div><img src='images/FSMLP.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **FSMLP: Modelling Channel Dependencies With Simplex Theory Based Multi-Layer Perceptions In Frequency Domain**
