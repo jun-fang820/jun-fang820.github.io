@@ -31,13 +31,51 @@ Now in my second year at PI Lab, I'm continuing to explore human–computer inte
 
 # 📝 Publications 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IMWUT'25 -- preprint</div><img src='images/conf_1.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**A Review of Behavioral Closed-Loop Paradigm from Sensing to Intervention for Ingestion Health**
+
+**Jun Fang**, Yanuo Zhou, Ka I Chan, Jiajin Li, Zeyi Sun, Zhengnan Li, Zicong Fu, Hongjing Piao, Haodong Xu, Yuanchun Shi, Yuntao Wang
+
+[**Paper**](https://arxiv.org/abs/2505.03185)
+
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IMWUT'25</div><img src='images/conf_1.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Computing with Smart Rings: A Systematic Literature Review**
+
+Zeyu Wang, Ruotong Yu, Xiangyang Wang, Jiexin Ding, Jiankai Tang, **Jun Fang**, Zhe He, Zhuojun Li, Tobias Röddiger, Weiye Xu, Xiyuxing Zhang, Huan-ang Gao, Nan Gao, Chun Yu, Yuanchun Shi, Yuntao Wang 
+
+[**Paper**](https://dl.acm.org/doi/abs/10.1145/3749480)
+
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Expert Systems with Applications</div><img src='images/conf_1.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Meta-Tuner: Meta-trained node-specific transformations for Graph Few-Shot Class-Incremental Learning**
+
+Zhengnan Li, **Jun Fang**, Junbo Wang, Xilong Cheng, Yuting Tan, Yunxiao Qin
+
+[**Paper**](https://www.sciencedirect.com/science/article/abs/pii/S0957417425019517)
+
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IC-NIDC'23</div><img src='images/conf_1.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **A Blockchain Consensus Protocol Based on Multidimensional Parameter Credit**
-Zexun Jiang, Cong Zha, **Yun Fang**, Hao Yin
 
-**IC-NIDC'23**
+Zexun Jiang, Cong Zha, **Yun Fang**, Hao Yin
 
 [**Paper**](https://ieeexplore.ieee.org/abstract/document/10388501)
 
@@ -45,24 +83,13 @@ Zexun Jiang, Cong Zha, **Yun Fang**, Hao Yin
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IC-NIDC'23</div><img src='images/conf_1.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
 
-**A Blockchain Consensus Protocol Based on Multidimensional Parameter Credit**
-Zexun Jiang, Cong Zha, **Yun Fang**, Hao Yin
-
-**IC-NIDC'23**
-
-[**Paper**](https://ieeexplore.ieee.org/abstract/document/10388501)
-
-</div>
-</div>
 
 
 # 🎖 Honors and Awards
 - *2021.11* **Outstanding Scholarship for Science and Technology Innovation**, Tsinghua University.
 - *2021.09* **Third Prize in "Shuyuan Cup" National GeneBank Algorithm Competition on One-Million Single-Cell Gene Expression Data**, National GeneBank of China.
-- *2017.11* **Silver Medal in the 33rd China Mathematical Olympiad (CMO)**, Chinese Mathematical Society
+- *2017.11* **Silver Medal in the 33rd China Mathematical Olympiad (CMO)**, Chinese Mathematical Society.
 
 # 📖 Educations
 - *2023.09 - 2029.06 (expected)*, Ph.D. in Department of Computer Science and Technology, Tsinghua University.
