@@ -31,18 +31,6 @@ Now in my second year at PI Lab, I'm continuing to explore human–computer inte
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IMWUT'25 -- preprint</div><img src='images/conf_1.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**A Review of Behavioral Closed-Loop Paradigm from Sensing to Intervention for Ingestion Health**
-
-**Jun Fang**, Yanuo Zhou, Ka I Chan, Jiajin Li, Zeyi Sun, Zhengnan Li, Zicong Fu, Hongjing Piao, Haodong Xu, Yuanchun Shi, Yuntao Wang
-
-[**Paper**](https://arxiv.org/abs/2505.03185)
-
-</div>
-</div>
-
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IMWUT'25</div><img src='images/conf_2.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -82,7 +70,19 @@ Zexun Jiang, Cong Zha, **Yun Fang**, Hao Yin
 </div>
 </div>
 
+**Preprint**
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv preprint</div><img src='images/conf_3.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**A Review of Behavioral Closed-Loop Paradigm from Sensing to Intervention for Ingestion Health**
+
+**Jun Fang**, Yanuo Zhou, Ka I Chan, Jiajin Li, Zeyi Sun, Zhengnan Li, Zicong Fu, Hongjing Piao, Haodong Xu, Yuanchun Shi, Yuntao Wang
+
+[**Paper**](https://arxiv.org/abs/2505.03185)
+
+</div>
+</div>
 
 
 
