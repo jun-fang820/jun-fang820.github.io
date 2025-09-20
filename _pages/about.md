@@ -26,9 +26,7 @@ Now in my second year at PI Lab, I'm continuing to explore human–computer inte
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-
+- *2023.02*: 
 
 
 # 📝 Publications 
@@ -48,16 +46,23 @@ Now in my second year at PI Lab, I'm continuing to explore human–computer inte
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+
+
+- *2021.11* **Outstanding Scholarship for Science and Technology Innovation**, Tsinghua University.
+- *2021.09* **Third Prize in "Shuyuan Cup" National GeneBank Algorithm Competition on One-Million Single-Cell Gene Expression Data**, National GeneBank of China.
+- *2017.11* **Silver Medal in the 33rd China Mathematical Olympiad (CMO)**, Chinese Mathematical Society
+
+
+- *2017.11*  
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2023.09 - 2029.06 (expected)*, Ph.D. in Department of Computer Science and Technology, Tsinghua University.
+- *2018.09 - 2023.06*, B.S. in Department of Automation, Tsinghua University.
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+
+<!-- # 💬 Invited Talks -->
+
 
 # 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- *2022.07 - 2022.09*, [Microsoft STCA](https://www.microsoft.com/zh-cn/aprd/aboutus/teams-stca), Beijing
+- *2021.07 - 2021.08*, [Microsoft STCA](https://www.microsoft.com/zh-cn/aprd/aboutus/teams-stca) ,Suzhou
