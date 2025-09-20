@@ -26,7 +26,8 @@ Now in my second year at PI Lab, I'm continuing to explore human–computer inte
 
 
 # 🔥 News
-- *2023.02*: 
+- *2023.02*: Start my Ph.D. journey in the Department of Computer Science and Technology in Tsinghua University!!
+- *2023.06*: I get my B.S. from the Department of Automation in Tsinghua University after five years!!
 
 
 # 📝 Publications 
