@@ -44,7 +44,7 @@ Now in my second year at PI Lab, I'm continuing to explore human–computer inte
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IMWUT'25</div><img src='images/conf_1.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IMWUT'25</div><img src='images/conf_2.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Computing with Smart Rings: A Systematic Literature Review**
@@ -57,7 +57,7 @@ Zeyu Wang, Ruotong Yu, Xiangyang Wang, Jiexin Ding, Jiankai Tang, **Jun Fang**, 
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Expert Systems with Applications</div><img src='images/conf_2.pdf' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Expert Systems with Applications</div><img src='images/jour_1.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Meta-Tuner: Meta-trained node-specific transformations for Graph Few-Shot Class-Incremental Learning**
