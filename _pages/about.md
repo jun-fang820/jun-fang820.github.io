@@ -57,7 +57,7 @@ Zeyu Wang, Ruotong Yu, Xiangyang Wang, Jiexin Ding, Jiankai Tang, **Jun Fang**, 
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Expert Systems with Applications</div><img src='images/conf_1.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Expert Systems with Applications</div><img src='images/conf_2.pdf' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Meta-Tuner: Meta-trained node-specific transformations for Graph Few-Shot Class-Incremental Learning**
