@@ -32,12 +32,14 @@ Now in my second year at PI Lab, I'm continuing to explore human–computer inte
 # 📝 Publications 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IMWUT'25</div><img src='images/conf_2.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IMWUT'25</div><img src='images/Rings.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Computing with Smart Rings: A Systematic Literature Review**
 
 Zeyu Wang, Ruotong Yu, Xiangyang Wang, Jiexin Ding, Jiankai Tang, **Jun Fang**, Zhe He, Zhuojun Li, Tobias Röddiger, Weiye Xu, Xiyuxing Zhang, Huan-ang Gao, Nan Gao, Chun Yu, Yuanchun Shi, Yuntao Wang 
+
+**IMWUT'25**
 
 [**Paper**](https://dl.acm.org/doi/abs/10.1145/3749480)
 
@@ -45,12 +47,14 @@ Zeyu Wang, Ruotong Yu, Xiangyang Wang, Jiexin Ding, Jiankai Tang, **Jun Fang**, 
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Expert Systems with Applications</div><img src='images/jour_1.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Expert Systems with Applications</div><img src='images/Meta.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Meta-Tuner: Meta-trained node-specific transformations for Graph Few-Shot Class-Incremental Learning**
 
 Zhengnan Li, **Jun Fang**, Junbo Wang, Xilong Cheng, Yuting Tan, Yunxiao Qin
+
+**Expert Systems with Applications**
 
 [**Paper**](https://www.sciencedirect.com/science/article/abs/pii/S0957417425019517)
 
@@ -58,12 +62,14 @@ Zhengnan Li, **Jun Fang**, Junbo Wang, Xilong Cheng, Yuting Tan, Yunxiao Qin
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IC-NIDC'23</div><img src='images/conf_1.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IC-NIDC'23</div><img src='images/Blockchain.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **A Blockchain Consensus Protocol Based on Multidimensional Parameter Credit**
 
 Zexun Jiang, Cong Zha, **Yun Fang**, Hao Yin
+
+**IC-NIDC'23**
 
 [**Paper**](https://ieeexplore.ieee.org/abstract/document/10388501)
 
@@ -72,7 +78,7 @@ Zexun Jiang, Cong Zha, **Yun Fang**, Hao Yin
 
 **Preprint**
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv preprint</div><img src='images/conf_3.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv preprint</div><img src='images/Behavior_survey.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **A Review of Behavioral Closed-Loop Paradigm from Sensing to Intervention for Ingestion Health**
@@ -80,6 +86,19 @@ Zexun Jiang, Cong Zha, **Yun Fang**, Hao Yin
 **Jun Fang**, Yanuo Zhou, Ka I Chan, Jiajin Li, Zeyi Sun, Zhengnan Li, Zicong Fu, Hongjing Piao, Haodong Xu, Yuanchun Shi, Yuntao Wang
 
 [**Paper**](https://arxiv.org/abs/2505.03185)
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv preprint</div><img src='images/FSMLP.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**FSMLP: Modelling Channel Dependencies With Simplex Theory Based Multi-Layer Perceptions In Frequency Domain**
+
+Zhengnan Li, Haoxuan Li, Hao Wang, **Jun Fang**, Duoyin Li, Yunxiao Qin
+
+
+[**Paper**](https://arxiv.org/abs/2412.01654)
 
 </div>
 </div>
