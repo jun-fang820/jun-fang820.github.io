@@ -111,8 +111,8 @@ Zhengnan Li, Haoxuan Li, Hao Wang, **Jun Fang**, Duoyin Li, Yunxiao Qin
 
 
 
-# 🎖 Honors and Awards
-- *2021.11* **Outstanding Scholarship for Science and Technology Innovation**, Tsinghua University.
+# 🎖 Selected Honors and Awards
+- *2021.12* **Outstanding Scholarship for Science and Technology Innovation**, Tsinghua University.
 - *2021.09* **Third Prize in "Shuyuan Cup" National GeneBank Algorithm Competition on One-Million Single-Cell Gene Expression Data**, National GeneBank of China.
 - *2017.11* **Silver Medal in the 33rd China Mathematical Olympiad (CMO)**, Chinese Mathematical Society.
 
