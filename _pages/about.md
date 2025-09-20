@@ -38,22 +38,14 @@ Now in my second year at PI Lab, I'm continuing to explore human–computer inte
 
 **Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
+[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC)
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+
 
 # 🎖 Honors and Awards
-
-
 - *2021.11* **Outstanding Scholarship for Science and Technology Innovation**, Tsinghua University.
 - *2021.09* **Third Prize in "Shuyuan Cup" National GeneBank Algorithm Competition on One-Million Single-Cell Gene Expression Data**, National GeneBank of China.
 - *2017.11* **Silver Medal in the 33rd China Mathematical Olympiad (CMO)**, Chinese Mathematical Society
-
-
-- *2017.11*  
 
 # 📖 Educations
 - *2023.09 - 2029.06 (expected)*, Ph.D. in Department of Computer Science and Technology, Tsinghua University.
@@ -65,4 +57,4 @@ Now in my second year at PI Lab, I'm continuing to explore human–computer inte
 
 # 💻 Internships
 - *2022.07 - 2022.09*, [Microsoft STCA](https://www.microsoft.com/zh-cn/aprd/aboutus/teams-stca), Beijing
-- *2021.07 - 2021.08*, [Microsoft STCA](https://www.microsoft.com/zh-cn/aprd/aboutus/teams-stca) ,Suzhou
+- *2021.07 - 2021.08*, [Microsoft STCA](https://www.microsoft.com/zh-cn/aprd/aboutus/teams-stca), Suzhou
