@@ -29,7 +29,7 @@ Now in my second year in PI Lab, I'm continuing to explore human–computer inte
 - *2025.09*: ✌️ My paper, [A Review of Behavioral Closed-Loop Paradigm from Sensing to Intervention for Ingestion Health](https://arxiv.org/abs/2505.03185) is accepted to [IMWUT'25](https://dl.acm.org/journal/imwut)!!
 - *2025.07*: ✌️ Our paper, [Computing with Smart Rings: A Systematic Literature Review](https://dl.acm.org/doi/abs/10.1145/3749480) is accepted to [IMWUT'25](https://dl.acm.org/journal/imwut)!!
 - *2025.05*: ✌️ Our paper, [Meta-Tuner: Meta-trained node-specific transformations for Graph Few-Shot Class-Incremental Learning](https://www.sciencedirect.com/science/article/pii/S0957417425019517) is accepted to [Expert Systems with Applications](https://www.sciencedirect.com/journal/expert-systems-with-applications)!!
-- *2024.07*: Joined the [Pervasive Interaction Lab](https://pi.cs.tsinghua.edu.cn/), starting a new chapter of my Ph.D. journey.
+- *2024.07*: Joined the [Pervasive Interaction Lab](https://pi.cs.tsinghua.edu.cn/), and restarted a new chapter of my Ph.D. journey.
 - *2023.11*: ✌️ Our paper, [A Blockchain Consensus Protocol Based on Multidimensional Parameter Credit](https://ieeexplore.ieee.org/abstract/document/10388501) is accepted to [IC-NIDC'23](https://www.aconf.org/conf_192177.2023_8th_IEEE_International_Conference_on_Network_Intelligence_and_Digital_Content.html)!!
 - *2023.09*: Start my Ph.D. journey in the Department of Computer Science and Technology in Tsinghua University.
 - *2023.06*: I get my B.S. from the Department of Automation in Tsinghua University after five years.
