@@ -121,9 +121,6 @@ Zhengnan Li, Haoxuan Li, Hao Wang, **Jun Fang**, Duoyin Li, Yunxiao Qin
 - *2018.09 - 2023.06*, B.S. in Department of Automation, Tsinghua University.
 
 
-<!-- # 💬 Invited Talks -->
-
-
 # 💻 Internships
 - *2022.07 - 2022.09*, [Microsoft STCA](https://www.microsoft.com/zh-cn/aprd/aboutus/teams-stca), Beijing
 - *2021.07 - 2021.08*, [Microsoft STCA](https://www.microsoft.com/zh-cn/aprd/aboutus/teams-stca), Suzhou
