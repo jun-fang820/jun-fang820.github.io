@@ -26,19 +26,35 @@ Now in my second year in PI Lab, I'm continuing to explore human–computer inte
 
 
 # 🔥 News
-- *2025.09*: ✌️ Our survey paper, [A Review of Behavioral Closed-Loop Paradigm from Sensing to Intervention for Ingestion Health](https://arxiv.org/abs/2505.03185) is accepted to [IMWUT'25](https://dl.acm.org/journal/imwut)!!
+- *2026.01*: One paper has been accepted by [CHI'26](https://chi2026.acm.org/).
+- *2025.09*: ✌️ Our survey paper, [A Review of Behavioral Closed-Loop Paradigm from Sensing to Intervention for Ingestion Health](https://arxiv.org/abs/2505.03185) is accepted to [IMWUT'25](https://dl.acm.org/journal/imwut).
+- *2025.07*: One paper has been accepted by [IMWUT'25](https://dl.acm.org/journal/imwut).
 <!--  - *2025.07*: ✌️ Our paper, [Computing with Smart Rings: A Systematic Literature Review](https://dl.acm.org/doi/abs/10.1145/3749480) is accepted to [IMWUT'25](https://dl.acm.org/journal/imwut)!! -->
+- *2025.05*: One paper has been accepted by [Expert Systems with Applications](https://www.sciencedirect.com/journal/expert-systems-with-applications).
 <!-- - *2025.05*: ✌️ Our paper, [Meta-Tuner: Meta-trained node-specific transformations for Graph Few-Shot Class-Incremental Learning](https://www.sciencedirect.com/science/article/pii/S0957417425019517) is accepted to [Expert Systems with Applications](https://www.sciencedirect.com/journal/expert-systems-with-applications)!! -->
 - *2024.07*: Joined the [Pervasive Interaction Lab](https://pi.cs.tsinghua.edu.cn/), and restarted a new chapter of my Ph.D. journey.
+- *2023.11*: One papar has been accepted by [IC-NIDC'23](https://www.aconf.org/conf_192177.2023_8th_IEEE_International_Conference_on_Network_Intelligence_and_Digital_Content.html).
 <!-- - *2023.11*: ✌️ Our paper, [A Blockchain Consensus Protocol Based on Multidimensional Parameter Credit](https://ieeexplore.ieee.org/abstract/document/10388501) is accepted to [IC-NIDC'23](https://www.aconf.org/conf_192177.2023_8th_IEEE_International_Conference_on_Network_Intelligence_and_Digital_Content.html)!! -->
 - *2023.09*: Start my Ph.D. journey in the Department of Computer Science and Technology in Tsinghua University.
 - *2023.06*: I get my B.S. from the Department of Automation in Tsinghua University.
 
 
-# 📝 Publications 
+# 📝 Selected Publications 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv preprint</div><img src='images/Behavior_survey.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**A Review of Behavioral Closed-Loop Paradigm from Sensing to Intervention for Ingestion Health**
+
+**Jun Fang**, Yanuo Zhou, Ka I Chan, Jiajin Li, Zeyi Sun, Zhengnan Li, Zicong Fu, Hongjing Piao, Haodong Xu, Yuanchun Shi, Yuntao Wang
+
+[**Paper**](https://dl.acm.org/doi/10.1145/3770668)
+
+</div>
+</div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IMWUT'25</div><img src='images/Rings.png' alt="sym" width="100%"></div></div>
+<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IMWUT'25</div><img src='images/Rings.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Computing with Smart Rings: A Systematic Literature Review**
@@ -50,7 +66,7 @@ Zeyu Wang, Ruotong Yu, Xiangyang Wang, Jiexin Ding, Jiankai Tang, **Jun Fang**, 
 [**Paper**](https://dl.acm.org/doi/abs/10.1145/3749480)
 
 </div>
-</div>
+</div> -->
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Expert Systems with Applications</div><img src='images/Meta.png' alt="sym" width="100%"></div></div>
@@ -68,7 +84,7 @@ Zhengnan Li, **Jun Fang**, Junbo Wang, Xilong Cheng, Yuting Tan, Yunxiao Qin
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IC-NIDC'23</div><img src='images/Blockchain.png' alt="sym" width="100%"></div></div>
+<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IC-NIDC'23</div><img src='images/Blockchain.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **A Blockchain Consensus Protocol Based on Multidimensional Parameter Credit**
@@ -80,21 +96,10 @@ Zexun Jiang, Cong Zha, **Yun Fang**, Hao Yin
 [**Paper**](https://ieeexplore.ieee.org/abstract/document/10388501)
 
 </div>
-</div>
+</div> -->
 
-**Preprint**
+<!-- **Preprint**
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv preprint</div><img src='images/Behavior_survey.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**A Review of Behavioral Closed-Loop Paradigm from Sensing to Intervention for Ingestion Health**
-
-**Jun Fang**, Yanuo Zhou, Ka I Chan, Jiajin Li, Zeyi Sun, Zhengnan Li, Zicong Fu, Hongjing Piao, Haodong Xu, Yuanchun Shi, Yuntao Wang
-
-[**Paper**](https://arxiv.org/abs/2505.03185)
-
-</div>
-</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv preprint</div><img src='images/FSMLP.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -107,7 +112,7 @@ Zhengnan Li, Haoxuan Li, Hao Wang, **Jun Fang**, Duoyin Li, Yunxiao Qin
 [**Paper**](https://arxiv.org/abs/2412.01654)
 
 </div>
-</div>
+</div> -->
 
 
 
