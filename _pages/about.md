@@ -21,7 +21,7 @@ I'm a Ph.D. student in the [Pervasive Interaction Lab](https://pi.cs.tsinghua.ed
 
 I'm very honored to be advised by [Prof. Yuanchun Shi](https://scholar.google.com/citations?user=TZm3-pwAAAAJ) and [A/Prof. Yuntao Wang](https://scholar.google.com/citations?user=kHpwoAUAAAAJ). Their guidance inspires me to connect computational methods with real-world human-centered challenges.
 
-Now in my second year in PI Lab, I'm continuing to explore human–computer interaction(HCI). Always happy to connect, exchange ideas and collaborate on projects! Also looking for **internship**, **collaboration**, and **visiting opportunities** to broaden my horizons and grow as a researcher!
+Now in my second year in PI Lab, I'm continuing to explore human–computer interaction. Always happy to connect, exchange ideas and collaborate on projects! Also looking for **internship**, **collaboration**, and **visiting opportunities** to broaden my horizons and grow as a researcher!
 
 
 
@@ -30,7 +30,7 @@ Now in my second year in PI Lab, I'm continuing to explore human–computer inte
 - *2026.01*: One paper has been accepted by [CHI'26](https://chi2026.acm.org/).
 - *2025.08*: Two papers have been accepted by [IMWUT'25](https://dl.acm.org/journal/imwut). [[Paper 1](https://dl.acm.org/doi/10.1145/3770668)] [[Paper 2](https://dl.acm.org/doi/abs/10.1145/3749480)] 
 - *2025.05*: One [paper](https://www.sciencedirect.com/science/article/pii/S0957417425019517) is accepted by [Expert Systems with Applications](https://www.sciencedirect.com/journal/expert-systems-with-applications).
-- *2024.07*: Joined the [Pervasive Interaction Lab](https://pi.cs.tsinghua.edu.cn/), and restarted a new chapter of my Ph.D. journey.
+- *2024.09*: Joined the [Pervasive Interaction Lab](https://pi.cs.tsinghua.edu.cn/), and restarted a new chapter of my Ph.D. journey.
 - *2023.11*: One [papar](https://ieeexplore.ieee.org/abstract/document/10388501) has been accepted by [IC-NIDC'23](https://www.aconf.org/conf_192177.2023_8th_IEEE_International_Conference_on_Network_Intelligence_and_Digital_Content.html).
 - *2023.09*: Start my Ph.D. journey in the Department of Computer Science and Technology in Tsinghua University.
 - *2023.06*: I get my B.S. from the Department of Automation in Tsinghua University.
@@ -85,3 +85,6 @@ Zhengnan Li, **Jun Fang**, Junbo Wang, Xilong Cheng, Yuting Tan, Yunxiao Qin
 # Internships
 - *2022.07 - 2022.09*, [Microsoft STCA](https://www.microsoft.com/zh-cn/aprd/aboutus/teams-stca), Beijing
 - *2021.07 - 2021.08*, [Microsoft STCA](https://www.microsoft.com/zh-cn/aprd/aboutus/teams-stca), Suzhou
+
+# Professional Services
+- Conference Reviewers: CHI EA'26, DIS'26
