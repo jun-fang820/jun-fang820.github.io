@@ -22,6 +22,18 @@ author_profile: true
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IMWUT'26</div><img src="{{ '/images/Rings.png' | relative_url }}" alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Computing with smart rings: A systematic literature review**
+
+Zeyu Wang, Ruotong Yu, Xiangyang Wang, Jiexin Ding, Jiankai Tang, **Jun Fang**, Zhe He, Zhuojun Li, Tobias Röddiger, Weiye Xu, Xiyuxing Zhang, Huan-ang Gao, Nan Gao, Chun Yu, Yuanchun Shi, Yuntao Wang
+
+[**Paper**](https://dl.acm.org/doi/abs/10.1145/3749480)
+
+</div>
+</div>
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Expert Systems with Applications</div><img src="{{ '/images/Meta.png' | relative_url }}" alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -50,8 +62,7 @@ Zexun Jiang, Cong Zha, **Yun Fang**, Hao Yin
 </div>
 
 
-
-## Preprints (arXiv)
+## Preprints
 
 <!--
 Use the same paper-box format as above for each arXiv paper.
@@ -66,7 +77,7 @@ Suggested badge text: arXiv / Under Review
 
 Zhengnan Li, Haoxuan Li, Hao Wang, **Jun Fang**, Yuting Tan, Xilong Cheng, Yunxiao Qin
 
-[**Paper**](https://ieeexplore.ieee.org/abstract/document/10388501)
+[**Paper**](https://arxiv.org/abs/2412.01654)
 
 </div>
 </div>

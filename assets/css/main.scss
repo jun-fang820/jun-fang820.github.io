@@ -130,22 +130,9 @@ h1:before, .anchor:before {
 }
 
 .pub-note {
-    position: relative;
     margin: 0.25rem 0 1.1rem;
-    padding-top: 0.9rem;
     font-size: 0.92rem;
     color: #6b6f73;
     opacity: 0.62;
     letter-spacing: 0.01em;
-
-    &::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 6.5rem;
-        height: 0.22rem;
-        background: #41b3b0;
-        border-radius: 999px;
-    }
 }
