@@ -5,9 +5,10 @@ excerpt: ""
 author_profile: true
 ---
 
-# Selected Publications
+# Publications
+* indicates Equal Contribution
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IMWUT</div><img src='/images/Behavior_survey.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IMWUT</div><img src="{{ '/images/Behavior_survey.jpg' | relative_url }}" alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **A Review of Behavioral Closed-Loop Paradigm from Sensing to Intervention for Ingestion Health**
@@ -19,7 +20,7 @@ author_profile: true
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Expert Systems with Applications</div><img src='/images/Meta.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Expert Systems with Applications</div><img src="{{ '/images/Meta.png' | relative_url }}" alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Meta-Tuner: Meta-trained node-specific transformations for Graph Few-Shot Class-Incremental Learning**
