@@ -27,6 +27,7 @@ Now in my second year in PI Lab, I'm continuing to explore human–computer inte
 
 
 # News
+<div class="news-scroll" markdown="1">
 - *2026.01*: One paper has been accepted by [CHI'26](https://chi2026.acm.org/). Another paper has been accepted by [CHI'26 Workshop](https://everydaywearableforhealth.github.io/).
 - *2025.08*: Two papers have been accepted by [IMWUT'25](https://dl.acm.org/journal/imwut). [[Paper 1](https://dl.acm.org/doi/10.1145/3770668)] [[Paper 2](https://dl.acm.org/doi/abs/10.1145/3749480)] 
 - *2025.05*: One [paper](https://www.sciencedirect.com/science/article/pii/S0957417425019517) has been accepted by [Expert Systems with Applications](https://www.sciencedirect.com/journal/expert-systems-with-applications).
@@ -34,6 +35,7 @@ Now in my second year in PI Lab, I'm continuing to explore human–computer inte
 - *2023.11*: One [papar](https://ieeexplore.ieee.org/abstract/document/10388501) has been accepted by [IC-NIDC'23](https://www.aconf.org/conf_192177.2023_8th_IEEE_International_Conference_on_Network_Intelligence_and_Digital_Content.html).
 - *2023.09*: Start my Ph.D. journey in the Department of Computer Science and Technology in Tsinghua University.
 - *2023.06*: I get my B.S. from the Department of Automation in Tsinghua University.
+</div>
 
 
 <!-- 
