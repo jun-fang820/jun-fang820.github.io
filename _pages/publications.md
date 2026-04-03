@@ -8,6 +8,8 @@ author_profile: true
 # Publications
 * indicates Equal Contribution
 
+## Published Papers
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IMWUT</div><img src="{{ '/images/Behavior_survey.jpg' | relative_url }}" alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -33,3 +35,12 @@ Zhengnan Li, **Jun Fang**, Junbo Wang, Xilong Cheng, Yuting Tan, Yunxiao Qin
 
 </div>
 </div>
+
+## Preprints (arXiv)
+
+<!--
+Use the same paper-box format as above for each arXiv paper.
+Suggested badge text: arXiv / Under Review
+-->
+
+No arXiv preprints listed yet.
