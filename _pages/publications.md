@@ -10,7 +10,7 @@ author_profile: true
 
 ## Published Papers
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IMWUT</div><img src="{{ '/images/Behavior_survey.jpg' | relative_url }}" alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IMWUT'26</div><img src="{{ '/images/Behavior_survey.jpg' | relative_url }}" alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **A Review of Behavioral Closed-Loop Paradigm from Sensing to Intervention for Ingestion Health**
@@ -22,6 +22,7 @@ author_profile: true
 </div>
 </div>
 
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Expert Systems with Applications</div><img src="{{ '/images/Meta.png' | relative_url }}" alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -29,12 +30,26 @@ author_profile: true
 
 Zhengnan Li, **Jun Fang**, Junbo Wang, Xilong Cheng, Yuting Tan, Yunxiao Qin
 
-**Expert Systems with Applications**
-
 [**Paper**](https://www.sciencedirect.com/science/article/abs/pii/S0957417425019517)
 
 </div>
 </div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IC-NIDC'23</div><img src="{{ '/images/Blockchain.png' | relative_url }}" alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**A Blockchain Consensus Protocol Based on Multidimensional Parameter Credit**
+
+Zexun Jiang, Cong Zha, **Yun Fang**, Hao Yin
+
+
+[**Paper**](https://ieeexplore.ieee.org/abstract/document/10388501)
+
+</div>
+</div>
+
+
 
 ## Preprints (arXiv)
 
@@ -43,4 +58,19 @@ Use the same paper-box format as above for each arXiv paper.
 Suggested badge text: arXiv / Under Review
 -->
 
-No arXiv preprints listed yet.
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src="{{ '/images/FSMLP.png' | relative_url }}" alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**FSMLP: Modelling Channel Dependencies With Simplex Theory Based Multi-Layer Perceptions In Frequency Domain**
+
+Zhengnan Li, Haoxuan Li, Hao Wang, **Jun Fang**, Yuting Tan, Xilong Cheng, Yunxiao Qin
+
+[**Paper**](https://ieeexplore.ieee.org/abstract/document/10388501)
+
+</div>
+</div>
+
+
+
+

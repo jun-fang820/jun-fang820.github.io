@@ -44,7 +44,7 @@ Now in my second year in PI Lab, I'm continuing to explore human–computer inte
 # Selected Publications
 <div class="pub-note">* indicates Equal Contribution</div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IMWUT</div><img src="{{ '/images/Behavior_survey.jpg' | relative_url }}" alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IMWUT'26</div><img src="{{ '/images/Behavior_survey.jpg' | relative_url }}" alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **A Review of Behavioral Closed-Loop Paradigm from Sensing to Intervention for Ingestion Health**
@@ -62,8 +62,6 @@ Now in my second year in PI Lab, I'm continuing to explore human–computer inte
 **Meta-Tuner: Meta-trained node-specific transformations for Graph Few-Shot Class-Incremental Learning**
 
 Zhengnan Li, **Jun Fang**, Junbo Wang, Xilong Cheng, Yuting Tan, Yunxiao Qin
-
-**Expert Systems with Applications**
 
 [**Paper**](https://www.sciencedirect.com/science/article/abs/pii/S0957417425019517)
 
