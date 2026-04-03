@@ -27,7 +27,7 @@ author_profile: true
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CHI'26</div><img src="{{ '/images/routine_computing.png' | relative_url }}" alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CHI'26</div><img src="{{ '/images/routine_computing.pdf' | relative_url }}" alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Routine Computing: A Systematic Review of Sensing Daily Life Dimensions Towards Human-Centered Goals**
@@ -100,7 +100,7 @@ Suggested badge text: arXiv / Under Review
 -->
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src="{{ '/images/earinter.png' | relative_url }}" alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src="{{ '/images/earinter.PNG' | relative_url }}" alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Earinter: A Closed-Loop System for Eating Pace Regulation with Just-in-Time Intervention Using Commodity Earbuds**
