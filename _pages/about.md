@@ -49,7 +49,7 @@ Now in my second year in PI Lab, I'm continuing to explore human–computer inte
 
 **A Review of Behavioral Closed-Loop Paradigm from Sensing to Intervention for Ingestion Health**
 
-**Jun Fang**\*, Yanuo Zhou\*, Ka I Chan, Jiajin Li, Zeyi Sun, Zhengnan Li, Zicong Fu, Hongjing Piao, Haodong Xu, Yuanchun Shi, Yuntao Wang
+**Jun Fang**<sup>*</sup>, Yanuo Zhou<sup>*</sup>, Ka I Chan, Jiajin Li, Zeyi Sun, Zhengnan Li, Zicong Fu, Hongjing Piao, Haodong Xu, Yuanchun Shi, Yuntao Wang
 
 [**Paper**](https://dl.acm.org/doi/10.1145/3770668)
 

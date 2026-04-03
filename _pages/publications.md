@@ -18,7 +18,7 @@ author_profile: true
 
 **Capturing Chewing and Swallowing with Earables: A Multimodal Dataset Across Contexts**
 
-**Jun Fang**\*, Ka I Chan\*, Xiyuxing Zhang\*, Yuntao Wang, Zihang Zhan, Zhixin Zhao, Yuanchun Shi
+**Jun Fang**<sup>*</sup>, Ka I Chan<sup>*</sup>, Xiyuxing Zhang<sup>*</sup>, Yuntao Wang, Zihang Zhan, Zhixin Zhao, Yuanchun Shi
 
 **Paper and datasets will be released later.**
 
@@ -27,12 +27,12 @@ author_profile: true
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CHI'26</div><img src="{{ '/images/routing_computing.pdf' | relative_url }}" alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CHI'26</div><img src="{{ '/images/routing_computing.png' | relative_url }}" alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Routine Computing: A Systematic Review of Sensing Daily Life Dimensions Towards Human-Centered Goals**
 
-Borislav Pavlov\*, Jiajin Li\*, **Jun Fang**, Yuntao Wang, Yuanchun Shi
+Borislav Pavlov<sup>*</sup>, Jiajin Li<sup>*</sup>, **Jun Fang**, Yuntao Wang, Yuanchun Shi
 
 **Paper will be released later.**
 
@@ -45,7 +45,7 @@ Borislav Pavlov\*, Jiajin Li\*, **Jun Fang**, Yuntao Wang, Yuanchun Shi
 
 **A Review of Behavioral Closed-Loop Paradigm from Sensing to Intervention for Ingestion Health**
 
-**Jun Fang**\*, Yanuo Zhou\*, Ka I Chan, Jiajin Li, Zeyi Sun, Zhengnan Li, Zicong Fu, Hongjing Piao, Haodong Xu, Yuanchun Shi, Yuntao Wang
+**Jun Fang**<sup>*</sup>, Yanuo Zhou<sup>*</sup>, Ka I Chan, Jiajin Li, Zeyi Sun, Zhengnan Li, Zicong Fu, Hongjing Piao, Haodong Xu, Yuanchun Shi, Yuntao Wang
 
 [**Paper**](https://dl.acm.org/doi/10.1145/3770668)
 
@@ -126,7 +126,5 @@ Zhengnan Li, Haoxuan Li, Hao Wang, **Jun Fang**, Yuting Tan, Xilong Cheng, Yunxi
 
 </div>
 </div>
-
-
 
 
