@@ -10,12 +10,42 @@ author_profile: true
 
 ## Published Papers
 
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CHI'26 Workshop</div><img src="{{ '/images/earinter.png' | relative_url }}" alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+
+**Capturing Chewing and Swallowing with Earables: A Multimodal Dataset Across Contexts**
+
+**Jun Fang**\*, Ka I Chan\*, Xiyuxing Zhang\*, Yuntao Wang, Zihang Zhan, Zhixin Zhao, Yuanchun Shi
+
+**Paper will be released later.**
+
+</div>
+</div>
+
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CHI'26</div><img src="{{ '/images/routine_computing.png' | relative_url }}" alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Routine Computing: A Systematic Review of Sensing Daily Life Dimensions Towards Human-Centered Goals**
+
+Borislav Pavlov\*, Jiajin Li\*, **Jun Fang**, Yuntao Wang, Yuanchun Shi
+
+**Paper will be released later.**
+
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IMWUT'26</div><img src="{{ '/images/Behavior_survey.jpg' | relative_url }}" alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **A Review of Behavioral Closed-Loop Paradigm from Sensing to Intervention for Ingestion Health**
 
-**Jun Fang**, Yanuo Zhou, Ka I Chan, Jiajin Li, Zeyi Sun, Zhengnan Li, Zicong Fu, Hongjing Piao, Haodong Xu, Yuanchun Shi, Yuntao Wang
+**Jun Fang**\*, Yanuo Zhou\*, Ka I Chan, Jiajin Li, Zeyi Sun, Zhengnan Li, Zicong Fu, Hongjing Piao, Haodong Xu, Yuanchun Shi, Yuntao Wang
 
 [**Paper**](https://dl.acm.org/doi/10.1145/3770668)
 
@@ -68,6 +98,21 @@ Zexun Jiang, Cong Zha, **Yun Fang**, Hao Yin
 Use the same paper-box format as above for each arXiv paper.
 Suggested badge text: arXiv / Under Review
 -->
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src="{{ '/images/earinter.png' | relative_url }}" alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Earinter: A Closed-Loop System for Eating Pace Regulation with Just-in-Time Intervention Using Commodity Earbuds**
+
+**Jun Fang**, Ka I Chan, Xiyuxing Zhang, Yuntao Wang, Mingze Gao, Leyi Peng, Jiajin Li, Zihang Zhan, Zhixin Zhao, Yuanchun Shi
+
+[**Paper**](https://arxiv.org/abs/2602.09522)
+
+</div>
+</div>
+
+
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src="{{ '/images/FSMLP.png' | relative_url }}" alt="sym" width="100%"></div></div>
