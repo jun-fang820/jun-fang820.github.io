@@ -12,7 +12,7 @@ author_profile: true
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CHI'26 Workshop</div><img src="{{ '/images/earinter.png' | relative_url }}" alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CHI'26 Workshop</div><img src="{{ '/images/everyday_workshop.png' | relative_url }}" alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 
@@ -20,7 +20,7 @@ author_profile: true
 
 **Jun Fang**\*, Ka I Chan\*, Xiyuxing Zhang\*, Yuntao Wang, Zihang Zhan, Zhixin Zhao, Yuanchun Shi
 
-**Paper will be released later.**
+**Paper and datasets will be released later.**
 
 </div>
 </div>
