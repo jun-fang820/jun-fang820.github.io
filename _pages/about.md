@@ -42,7 +42,7 @@ Now in my second year in PI Lab, I'm continuing to explore human–computer inte
 # A Glance of Active projects -->
 
 # Selected Publications
-* indicates Equal Contribution
+<div class="pub-note">* indicates Equal Contribution</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IMWUT</div><img src="{{ '/images/Behavior_survey.jpg' | relative_url }}" alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">

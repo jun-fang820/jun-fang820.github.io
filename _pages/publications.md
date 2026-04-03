@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 # Publications
-* indicates Equal Contribution
+<div class="pub-note">* indicates Equal Contribution</div>
 
 ## Published Papers
 
