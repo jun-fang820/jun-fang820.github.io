@@ -27,7 +27,7 @@ author_profile: true
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CHI'26</div><img src="{{ '/images/routing_computing.png' | relative_url }}" alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CHI'26</div><img src="{{ '/images/routine.png' | relative_url }}" alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Routine Computing: A Systematic Review of Sensing Daily Life Dimensions Towards Human-Centered Goals**
