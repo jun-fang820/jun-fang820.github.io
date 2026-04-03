@@ -40,7 +40,7 @@ Borislav Pavlov<sup>*</sup>, Jiajin Li<sup>*</sup>, **Jun Fang**, Yuntao Wang, Y
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IMWUT'26</div><img src="{{ '/images/Behavior_survey.jpg' | relative_url }}" alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IMWUT'25</div><img src="{{ '/images/Behavior_survey.jpg' | relative_url }}" alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **A Review of Behavioral Closed-Loop Paradigm from Sensing to Intervention for Ingestion Health**
@@ -52,7 +52,7 @@ Borislav Pavlov<sup>*</sup>, Jiajin Li<sup>*</sup>, **Jun Fang**, Yuntao Wang, Y
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IMWUT'26</div><img src="{{ '/images/Rings.png' | relative_url }}" alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IMWUT'25</div><img src="{{ '/images/Rings.png' | relative_url }}" alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Computing with smart rings: A systematic literature review**
