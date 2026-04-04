@@ -20,6 +20,8 @@ author_profile: true
 
 **Jun Fang**<sup>*</sup>, Ka I Chan<sup>*</sup>, Xiyuxing Zhang<sup>*</sup>, Yuntao Wang, Zihang Zhan, Zhixin Zhao, Yuanchun Shi
 
+**Workshop: Everyday Wearable for Personalized Health and Well-Being**
+
 **Paper and datasets will be released later.**
 
 </div>
