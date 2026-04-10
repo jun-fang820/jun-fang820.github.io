@@ -114,7 +114,7 @@ Yanuo Zhou<sup>*</sup>, **Jun Fang**<sup>*</sup>, Yuntao Wang, Yi Wang, Nan Gao,
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src="{{ '/images/speaksoftly.pdf | relative_url }}" alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src="{{ '/images/speaksoftly.png' | relative_url }}" alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **SpeakSoftly: Scaffolding Nonviolent Communication in Intimate Relationships through LLM-Powered Just-In-Time Interventions**
@@ -153,5 +153,4 @@ Zhengnan Li, Haoxuan Li, Hao Wang, **Jun Fang**, Yuting Tan, Xilong Cheng, Yunxi
 
 </div>
 </div>
-
 
