@@ -101,6 +101,33 @@ Use the same paper-box format as above for each arXiv paper.
 Suggested badge text: arXiv / Under Review
 -->
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src="{{ '/images/storyecho.png | relative_url }}" alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**StoryEcho: A Generative Child-as-Actor Storytelling System for Picky-Eating Intervention**
+
+Yanuo Zhou<sup>*</sup>, **Jun Fang**<sup>*</sup>, Yuntao Wang, Yi Wang, Nan Gao, Jinlei Liu, Yuanchun Shi
+
+[**Paper**](https://arxiv.org/abs/2604.08114)
+
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src="{{ '/images/speaksoftly.pdf | relative_url }}" alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**SpeakSoftly: Scaffolding Nonviolent Communication in Intimate Relationships through LLM-Powered Just-In-Time Interventions**
+
+Ka I Chan, Hongbo Lan, **Jun Fang**, Yuntao Wang, Yuanchun Shi
+
+[**Paper**](https://arxiv.org/abs/2604.05382)
+
+</div>
+</div>
+
+
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src="{{ '/images/earinter.PNG' | relative_url }}" alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -113,8 +140,6 @@ Suggested badge text: arXiv / Under Review
 
 </div>
 </div>
-
-
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src="{{ '/images/FSMLP.png' | relative_url }}" alt="sym" width="100%"></div></div>
