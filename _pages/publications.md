@@ -101,7 +101,7 @@ Use the same paper-box format as above for each arXiv paper.
 Suggested badge text: arXiv / Under Review
 -->
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src="{{ '/images/storyecho.png | relative_url }}" alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src="{{ '/images/storyecho.png' | relative_url }}" alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **StoryEcho: A Generative Child-as-Actor Storytelling System for Picky-Eating Intervention**
@@ -153,4 +153,3 @@ Zhengnan Li, Haoxuan Li, Hao Wang, **Jun Fang**, Yuting Tan, Xilong Cheng, Yunxi
 
 </div>
 </div>
-
