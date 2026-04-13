@@ -36,7 +36,7 @@ author_profile: true
 
 Borislav Pavlov<sup>*</sup>, Jiajin Li<sup>*</sup>, **Jun Fang**, Yuntao Wang, Yuanchun Shi
 
-**Paper will be released later.**
+[**Paper**](https://dl.acm.org/doi/10.1145/3772318.3791269)
 
 </div>
 </div>
