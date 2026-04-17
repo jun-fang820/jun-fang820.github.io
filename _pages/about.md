@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm a Ph.D. student in the [Pervasive Interaction Lab](https://pi.cs.tsinghua.edu.cn/) at Tsinghua University. My research focuses on human–AI collaboration with generative models, behavioral modeling and intervention, health and well-being. Previously, I received my B.S. in Automation from Tsinghua University.
+I'm a Ph.D. student in the [Pervasive Interaction Lab](https://pi.cs.tsinghua.edu.cn/) at Tsinghua University. My research focuses on human–AI interaction, behavioral modeling and intervention, health and well-being. Previously, I received my B.S. in Automation from Tsinghua University.
 
 I'm very honored to be advised by [Prof. Yuanchun Shi](https://scholar.google.com/citations?user=TZm3-pwAAAAJ) and [A/Prof. Yuntao Wang](https://scholar.google.com/citations?user=kHpwoAUAAAAJ). Their guidance inspires me to connect computational methods with real-world human-centered challenges.
 
