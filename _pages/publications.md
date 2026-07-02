@@ -11,6 +11,18 @@ author_profile: true
 ## Published Papers
 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IMWUT'26</div><img src="{{ '/images/earinter.PNG' | relative_url }}" alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Earinter: A Closed-Loop System for Eating Pace Regulation with Just-in-Time Intervention Using Commodity Earbuds**
+
+**Jun Fang**, Ka I Chan, Xiyuxing Zhang, Yuntao Wang, Mingze Gao, Leyi Peng, Jiajin Li, Zihang Zhan, Zhixin Zhao, Yuanchun Shi
+
+[**Paper**](https://arxiv.org/abs/2602.09522)
+
+</div>
+</div>
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CHI'26 Workshop</div><img src="{{ '/images/everyday_workshop.png' | relative_url }}" alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -128,18 +140,6 @@ Ka I Chan, Hongbo Lan, **Jun Fang**, Yuntao Wang, Yuanchun Shi
 
 
 
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src="{{ '/images/earinter.PNG' | relative_url }}" alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**Earinter: A Closed-Loop System for Eating Pace Regulation with Just-in-Time Intervention Using Commodity Earbuds**
-
-**Jun Fang**, Ka I Chan, Xiyuxing Zhang, Yuntao Wang, Mingze Gao, Leyi Peng, Jiajin Li, Zihang Zhan, Zhixin Zhao, Yuanchun Shi
-
-[**Paper**](https://arxiv.org/abs/2602.09522)
-
-</div>
-</div>
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src="{{ '/images/FSMLP.png' | relative_url }}" alt="sym" width="100%"></div></div>
