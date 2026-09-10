@@ -78,7 +78,7 @@ Zhengnan Li, **Jun Fang**, Junbo Wang, Xilong Cheng, Yuting Tan, Yunxiao Qin
 - *2017.11* **Silver Medal in the 33rd China Mathematical Olympiad (CMO)**, Chinese Mathematical Society.
 
 # Educations
-- *2023.09 - 2029.06 (expected)*, Ph.D. in Department of Computer Science and Technology, Tsinghua University.
+- *2023.09 - 2028.12 (expected)*, Ph.D. in Department of Computer Science and Technology, Tsinghua University.
 - *2018.09 - 2023.06*, B.S. in Department of Automation, Tsinghua University.
 
 
