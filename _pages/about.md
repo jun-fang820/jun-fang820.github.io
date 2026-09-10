@@ -28,12 +28,10 @@ Now in my third year in PI Lab, I'm continuing to explore human–computer inter
 
 # News
 <div class="news-scroll" markdown="1">
-- *2026.07*: One [paper](https://arxiv.org/abs/2602.09522) has been accepted by [IMWUT'26](https://dl.acm.org/journal/imwut).
-- *2026.01*: One [paper](https://dl.acm.org/doi/10.1145/3772318.3791269) has been accepted by [CHI'26](https://chi2026.acm.org/). Another paper has been accepted by [CHI'26 Workshop](https://everydaywearableforhealth.github.io/).
-- *2025.08*: Two papers have been accepted by [IMWUT'25](https://dl.acm.org/journal/imwut). [[Paper 1](https://dl.acm.org/doi/10.1145/3770668)] [[Paper 2](https://dl.acm.org/doi/abs/10.1145/3749480)] 
-- *2025.05*: One [paper](https://www.sciencedirect.com/science/article/pii/S0957417425019517) has been accepted by [Expert Systems with Applications](https://www.sciencedirect.com/journal/expert-systems-with-applications).
+- *2026.07*: Our research paper, [Earinter: A Closed-Loop System for Eating Pace Regulation with Just-in-Time Intervention Using Commodity Earbuds](https://arxiv.org/abs/2602.09522), has been accepted by [IMWUT'26](https://dl.acm.org/journal/imwut).
+- *2026.01*: Our dataset paper, Capturing Chewing and Swallowing with Earables: A Multimodal Dataset Across Contexts ,has been accepted by [CHI'26 Workshop](https://everydaywearableforhealth.github.io/).
+- *2025.08*: Our survey paper, [A Review of Behavioral Closed-Loop Paradigm from Sensing to Intervention for Ingestion Health](https://dl.acm.org/doi/10.1145/3770668), has been accepted by [IMWUT'25](https://dl.acm.org/journal/imwut).
 - *2024.09*: Joined the [Pervasive Interaction Lab](https://pi.cs.tsinghua.edu.cn/), and restarted a new chapter of my Ph.D. journey.
-- *2023.11*: One [papar](https://ieeexplore.ieee.org/abstract/document/10388501) has been accepted by [IC-NIDC'23](https://www.aconf.org/conf_192177.2023_8th_IEEE_International_Conference_on_Network_Intelligence_and_Digital_Content.html).
 - *2023.09*: Start my Ph.D. journey in the Department of Computer Science and Technology in Tsinghua University.
 - *2023.06*: I get my B.S. from the Department of Automation in Tsinghua University.
 </div>
@@ -87,4 +85,4 @@ Zhengnan Li, **Jun Fang**, Junbo Wang, Xilong Cheng, Yuting Tan, Yunxiao Qin
 - *2021.07 - 2021.08*, [Microsoft STCA](https://www.microsoft.com/zh-cn/aprd/aboutus/teams-stca), Suzhou
 
 # Professional Services
-- Conference Reviewers: CHI EA'26, DIS'26
+- Conference Reviewers: CHI'26, DIS'26
