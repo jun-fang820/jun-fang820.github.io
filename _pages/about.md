@@ -21,7 +21,7 @@ I'm a Ph.D. student in the [Pervasive Interaction Lab](https://pi.cs.tsinghua.ed
 
 I'm very honored to be advised by [Prof. Yuanchun Shi](https://scholar.google.com/citations?user=TZm3-pwAAAAJ) and [A/Prof. Yuntao Wang](https://scholar.google.com/citations?user=kHpwoAUAAAAJ). Their guidance inspires me to connect computational methods with real-world human-centered challenges.
 
-Now in my second year in PI Lab, I'm continuing to explore human–computer interaction. Always happy to connect, exchange ideas and collaborate on projects! Also looking for **internship**, **collaboration**, and **visiting opportunities** to broaden my horizons and grow as a researcher!
+Now in my third year in PI Lab, I'm continuing to explore human–computer interaction. Always happy to connect, exchange ideas and collaborate on projects! Also looking for **internship**, **collaboration**, and **visiting opportunities** to broaden my horizons and grow as a researcher!
 
 
 
