@@ -120,7 +120,7 @@ Suggested badge text: arXiv / Under Review
 
 **Jun Fang**, Jiajin Li, Yuntao Wang, Kexin Miao, Susu Wang, Xiaoyu Xie, Kaixin Ji, Yuanchun Shi
 
-**Paper**
+[**Paper**](https://arxiv.org/abs/2609.12642)
 
 </div>
 </div>
