@@ -28,7 +28,7 @@ Now in my third year in PI Lab, I'm continuing to explore human–computer inter
 
 # News
 <div class="news-scroll" markdown="1">
-- *2026.07*: Our research paper, [Earinter: A Closed-Loop System for Eating Pace Regulation with Just-in-Time Intervention Using Commodity Earbuds](https://arxiv.org/abs/2602.09522), has been accepted by [IMWUT'26](https://dl.acm.org/journal/imwut).
+- *2026.07*: Our research paper, [Earinter: A Closed-Loop System for Eating Pace Regulation with Just-in-Time Intervention Using Commodity Earbuds](https://dl.acm.org/doi/10.1145/3831629), has been accepted by [IMWUT'26](https://dl.acm.org/journal/imwut).
 - *2026.01*: Our dataset paper, Capturing Chewing and Swallowing with Earables: A Multimodal Dataset Across Contexts, has been accepted by [CHI'26 Workshop](https://everydaywearableforhealth.github.io/).
 - *2025.08*: Our survey paper, [A Review of Behavioral Closed-Loop Paradigm from Sensing to Intervention for Ingestion Health](https://dl.acm.org/doi/10.1145/3770668), has been accepted by [IMWUT'25](https://dl.acm.org/journal/imwut).
 - *2024.09*: Joined the [Pervasive Interaction Lab](https://pi.cs.tsinghua.edu.cn/), and restarted a new chapter of my Ph.D. journey.
