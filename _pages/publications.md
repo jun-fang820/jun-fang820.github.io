@@ -18,7 +18,7 @@ author_profile: true
 
 **Jun Fang**, Ka I Chan, Xiyuxing Zhang, Yuntao Wang, Mingze Gao, Leyi Peng, Jiajin Li, Zihang Zhan, Zhixin Zhao, Yuanchun Shi
 
-[**Paper**](https://arxiv.org/abs/2602.09522)
+[**Paper**](https://dl.acm.org/doi/10.1145/3831629)
 
 </div>
 </div>
