@@ -1,0 +1,48 @@
+1
+00:00:04,866 --> 00:00:07,966
+Eating slowly throughout a meal can be difficult.
+
+2
+00:00:08,366 --> 00:00:10,100
+We present Earinter
+
+3
+00:00:10,100 --> 00:00:15,066
+a closed- loop system using commodity earbuds to regulate eating pace in daily meals.
+
+4
+00:00:17,200 --> 00:00:21,433
+For sensing, its bone-conduction sensor can capture chewing vibrations.
+
+5
+00:00:22,166 --> 00:00:29,033
+For reasoning, the smartphone detects chews and infers swallows from inter-chew intervals, estimating eating pace in real time.
+
+6
+00:00:30,400 --> 00:00:35,666
+considering meal contexts, We designed just-in-time interventions with wizard-of-oz pilots.
+
+7
+00:00:36,266 --> 00:00:38,233
+When fast eating is detected,
+
+8
+00:00:38,500 --> 00:00:42,500
+Earinter delivers just-in-time audio prompts within a specific mechanism.
+
+9
+00:00:43,166 --> 00:00:47,300
+It keeps monitoring as you adjust, staying quiet when your pace is on track.
+
+10
+00:00:48,800 --> 00:00:51,466
+A summary also supports reflection.
+
+11
+00:00:52,533 --> 00:00:53,900
+In our field study, 
+
+12
+00:00:53,900 --> 00:00:58,700
+Earinter helped users increase chews per swallow and eat more slowly during daily meals.
+

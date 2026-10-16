@@ -18,7 +18,7 @@ author_profile: true
 
 **Jun Fang**, Ka I Chan, Xiyuxing Zhang, Yuntao Wang, Mingze Gao, Leyi Peng, Jiajin Li, Zihang Zhan, Zhixin Zhao, Yuanchun Shi
 
-[**Paper**](https://dl.acm.org/doi/10.1145/3831629)
+[**Paper**](https://dl.acm.org/doi/10.1145/3831629) [**Video**]({{ '/video/earinter/IMWUT-Feb262705-teaser.mp4' | relative_url }})
 
 </div>
 </div>
