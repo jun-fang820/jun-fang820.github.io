@@ -85,4 +85,4 @@ Zhengnan Li, **Jun Fang**, Junbo Wang, Xilong Cheng, Yuting Tan, Yunxiao Qin
 - *2021.07 - 2021.08*, [Microsoft STCA](https://www.microsoft.com/zh-cn/aprd/aboutus/teams-stca), Suzhou
 
 # Professional Services
-- Conference Reviewers: CHI'26, DIS'26
+- Conference Reviewers: CHI'26, DIS'26, CHI'27
