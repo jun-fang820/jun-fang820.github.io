@@ -113,6 +113,18 @@ Use the same paper-box format as above for each arXiv paper.
 Suggested badge text: arXiv / Under Review
 -->
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src="{{ '/images/premeal_habit.png' | relative_url }}" alt="Supporting Habit Formation in Pre-Meal Photo Capture teaser" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Supporting Habit Formation in Pre-Meal Photo Capture: A Longitudinal Study of Behavior Change Techniques**
+
+**Jun Fang**, Yueying Suo, Yuntao Wang, Susu Wang, Xiaoyu Yang, Qiqi Liu, Chuangyu Ding, Yuanchun Shi
+
+[**Paper**](https://arxiv.org/abs/2611.02983)
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src="{{ '/images/laughanchor.png' | relative_url }}" alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 

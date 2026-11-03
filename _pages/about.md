@@ -72,6 +72,7 @@ Zhengnan Li, **Jun Fang**, Junbo Wang, Xilong Cheng, Yuting Tan, Yunxiao Qin
 
 
 # Selected Honors and Awards
+- *2026.11* **Huiyan Talent Scholarship, Secondary Scholarship**.
 - *2026.10* **Young Elite Scientists Sponsorship Program (Doctoral Student Special Project)**, China Association for Science and Technology.
 - *2021.12* **Outstanding Scholarship for Science and Technology Innovation**, Tsinghua University.
 - *2021.09* **Third Prize in "Shuyuan Cup" National GeneBank Algorithm Competition on One-Million Single-Cell Gene Expression Data**, National GeneBank of China.
