@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Jun Fang"
-excerpt: "Jun Fang is a third-year Ph.D. student at Tsinghua University studying eating behavior and behavior change."
+excerpt: "Jun Fang is a third-year Ph.D. student at Tsinghua University studying wearable sensing, behavior change, and ingestion health."
 author_profile: false
 body_class: home-page
 redirect_from:
@@ -13,18 +13,20 @@ redirect_from:
   <div class="home-hero__identity">
     <h1 id="home-title">{{ site.author.name | escape }}</h1>
   </div>
-  <figure class="home-portrait">
-    <img src="{{ '/images/portrait-riverside.webp' | relative_url }}" width="1080" height="1440" alt="Portrait of {{ site.author.name | escape }} by a river">
-  </figure>
+  <div class="home-hero__aside">
+    <figure class="home-portrait">
+      <img src="{{ '/images/portrait-riverside.webp' | relative_url }}" width="1080" height="1440" alt="Portrait of {{ site.author.name | escape }} by a river">
+    </figure>
+    <nav class="home-links" aria-label="Contact and profiles">
+      <a href="mailto:{{ site.author.email }}" aria-label="Email" title="Email"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+      <a href="{{ site.author.googlescholar | escape }}" aria-label="Google Scholar" title="Google Scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
+      <a href="https://www.linkedin.com/in/{{ site.author.linkedin | escape }}" aria-label="LinkedIn" title="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+      <a href="{{ site.author.orcid | escape }}" aria-label="ORCID" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>
+    </nav>
+  </div>
   <div class="home-hero__bio">
-    <p class="home-bio">I'm a third-year Ph.D. student in the <a href="https://pi.cs.tsinghua.edu.cn/">Pervasive Interaction Lab</a> at Tsinghua University, advised by <a href="https://scholar.google.com/citations?user=TZm3-pwAAAAJ">Prof. Yuanchun Shi</a> and <a href="https://scholar.google.com/citations?user=kHpwoAUAAAAJ">A/Prof. Yuntao Wang</a>.</p>
-    <p class="home-bio">I study eating behavior and build closed-loop systems to support behavior change in everyday life.</p>
-    <div class="home-links">
-      <a href="mailto:{{ site.author.email }}">Email</a>
-      <a href="{{ site.author.googlescholar | escape }}">Google Scholar</a>
-      <a href="https://www.linkedin.com/in/{{ site.author.linkedin | escape }}">LinkedIn</a>
-      <a href="{{ site.author.orcid | escape }}">ORCID</a>
-    </div>
+    <p class="home-bio">I'm a third-year Ph.D. student in the <a href="https://pi.cs.tsinghua.edu.cn/">Pervasive Interaction Lab</a> at Tsinghua University, advised by <a href="https://scholar.google.com/citations?user=TZm3-pwAAAAJ">Prof. Yuanchun Shi</a> and <a href="https://scholar.google.com/citations?user=kHpwoAUAAAAJ">A/Prof. Yuntao Wang</a>. Previously, I earned my B.S. from the Department of Automation at Tsinghua University.</p>
+    <p class="home-bio">I study how wearable sensing can help us understand everyday behaviors and inform interventions. My work focuses on ingestion health and behavior change, with broader interests in well-being.</p>
     <p class="home-note">Open to research internships, collaborations, and visiting opportunities.</p>
   </div>
 </section>
@@ -55,8 +57,12 @@ redirect_from:
     <a href="#research-{{ topic.id }}" id="tab-{{ topic.id }}">{{ topic.short_title | escape }}</a>
     {% endfor %}
   </nav>
+  <div class="home-research-panels" data-research-panels>
   {% for topic in site.data.research %}
   <section class="home-research-module" id="research-{{ topic.id }}" aria-labelledby="topic-{{ topic.id }}">
+    {% for alias in topic.aliases %}
+    <span id="research-{{ alias }}" aria-hidden="true"></span>
+    {% endfor %}
     <div class="home-research-module__intro">
       <h3 id="topic-{{ topic.id }}">{{ topic.title | escape }}</h3>
       <p>{{ topic.description | escape }}</p>
@@ -66,9 +72,17 @@ redirect_from:
       <li class="home-research-paper">
         {% include paper-figure.html class_name="paper-figure home-research-paper__image" src=paper.image.src preview=paper.image.webp label=paper.title alt=paper.image.alt %}
         <div>
-          <h4>{{ paper.title | escape }}</h4>
+          <h4>{{ paper.name | default: paper.title | escape }}</h4>
+          {% if paper.summary %}
+          <p class="home-research-paper__summary">{{ paper.summary | escape }}</p>
+          {% endif %}
           <div class="home-research-paper__meta">
-            <span>{{ paper.venue | escape }}</span>
+            {% if paper.venue %}
+            <span class="pub-venue">{{ paper.venue | escape }}</span>
+            {% endif %}
+            {% if paper.status %}
+            <span>{{ paper.status | escape }}</span>
+            {% endif %}
             {% for link in paper.links %}
             <a href="{{ link.url | relative_url | escape }}" aria-label="{{ link.label | escape }}: {{ paper.title | escape }}">{{ link.label | escape }}</a>
             {% endfor %}
@@ -79,6 +93,7 @@ redirect_from:
     </ul>
   </section>
   {% endfor %}
+  </div>
 </section>
 
 <section class="home-section home-background" aria-labelledby="background">
@@ -90,11 +105,11 @@ redirect_from:
 
 ### Honors and Awards {#selected-honors-and-awards}
 
-- *2026.11* **Huiyan Talent Scholarship, Secondary Scholarship**, Tsinghua University.
-- *2026.10* **Young Elite Scientists Sponsorship Program (Doctoral Student Special Project)**, China Association for Science and Technology.
-- *2021.12* **Outstanding Scholarship for Science and Technology Innovation**, Tsinghua University.
-- *2021.09* **Third Prize in "Shuyuan Cup" National GeneBank Algorithm Competition on One-Million Single-Cell Gene Expression Data**, National GeneBank of China.
-- *2017.11* **Silver Medal in the 33rd China Mathematical Olympiad (CMO)**, Chinese Mathematical Society.
+- *2026.11* Huiyan Talent Scholarship, Secondary Scholarship, Tsinghua University.
+- *2026.10* Young Elite Scientists Sponsorship Program (Doctoral Student Special Project), China Association for Science and Technology.
+- *2021.12* Outstanding Scholarship for Science and Technology Innovation, Tsinghua University.
+- *2021.09* Third Prize in "Shuyuan Cup" National GeneBank Algorithm Competition on One-Million Single-Cell Gene Expression Data, National GeneBank of China.
+- *2017.11* Silver Medal in the 33rd China Mathematical Olympiad (CMO), Chinese Mathematical Society.
 
 </div>
 <div markdown="1">

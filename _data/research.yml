@@ -1,10 +1,13 @@
-- id: eating-and-closed-loop
-  title: Eating Behavior & Closed-Loop Systems
-  short_title: Eating & Closed-Loop
-  description: Using wearable signals from everyday meals to understand eating behavior and provide timely feedback.
+- id: wearable-sensing
+  aliases: [eating-and-closed-loop]
+  title: Wearable Sensing for Ingestion Health
+  short_title: Wearable Sensing
+  description: How can wearables capture eating behavior and related physiological and contextual signals in everyday life?
   papers:
-    - title: >-
+    - name: Earinter
+      title: >-
         Earinter: A Closed-Loop System for Eating Pace Regulation with Just-in-Time Intervention Using Commodity Earbuds
+      summary: Sensing eating pace through everyday earbuds to offer timely feedback during meals.
       venue: IMWUT 2026
       image:
         src: /images/earinter.PNG
@@ -15,7 +18,9 @@
           url: https://dl.acm.org/doi/10.1145/3831629
         - label: Video
           url: /video/earinter/IMWUT-Feb262705-teaser.mp4
-    - title: A Review of Behavioral Closed-Loop Paradigm from Sensing to Intervention for Ingestion Health
+    - name: Ingestion Health Review
+      title: A Review of Behavioral Closed-Loop Paradigm from Sensing to Intervention for Ingestion Health
+      summary: A review of how sensing, reasoning, and intervention connect in systems for ingestion health.
       venue: IMWUT 2025
       image:
         src: /images/Behavior_survey.jpg
@@ -24,14 +29,17 @@
       links:
         - label: Paper
           url: https://dl.acm.org/doi/10.1145/3770668
-- id: habits-and-behavior-change
-  title: Habit Formation & Behavior Change
-  short_title: Habit Formation
-  description: Studying how interactive tools can help people establish new routines around food and eating.
+- id: behavior-change
+  aliases: [habits-and-behavior-change]
+  title: Behavior Change & Intervention
+  short_title: Behavior Change
+  description: How can interactive systems support decisions in the moment and help people build routines over time?
   papers:
-    - title: >-
+    - name: Pre-Meal Photo Capture
+      title: >-
         Supporting Habit Formation in Pre-Meal Photo Capture: A Longitudinal Study of Behavior Change Techniques
-      venue: 2026 preprint
+      summary: A longitudinal study of what helps people build a habit of taking photos before meals.
+      status: Preprint
       image:
         src: /images/premeal_habit.png
         webp: /images/premeal-habit-home.webp
@@ -39,24 +47,28 @@
       links:
         - label: arXiv
           url: https://arxiv.org/abs/2611.02983
-    - title: >-
+    - name: StoryEcho
+      title: >-
         StoryEcho: A Generative Child-as-Actor Storytelling System for Picky-Eating Intervention
-      venue: 2026 preprint
+      summary: Personalized stories that respond to how children explore foods during real meals.
+      status: Preprint
       image:
         src: /images/storyecho.png
         webp: /images/storyecho-home.webp
-        alt: StoryEcho connects a story starring the child with trying foods at mealtime.
+        alt: StoryEcho connects a story starring the child with exploring foods at mealtime.
       links:
         - label: arXiv
           url: https://arxiv.org/abs/2604.08114
-
-- id: reflection-and-well-being
-  title: Reflection & Everyday Well-Being
-  short_title: Reflection & Well-Being
-  description: Designing tools to revisit positive experiences and support difficult conversations.
+- id: well-being
+  aliases: [reflection-and-well-being]
+  title: Everyday Well-Being
+  short_title: Well-Being
+  description: How can interactive systems help people reflect on everyday experiences and support their well-being?
   papers:
-    - title: Reconstruction and Reflection of Positive Experiences through Resurfacing Laughter-indexed Everyday Moments
-      venue: 2026 preprint
+    - name: LaughAnchor
+      title: Reconstruction and Reflection of Positive Experiences through Resurfacing Laughter-indexed Everyday Moments
+      summary: Using moments of laughter to help people revisit and reflect on positive everyday experiences.
+      status: Preprint
       image:
         src: /images/laughanchor.png
         webp: /images/laughanchor-home.webp
@@ -64,13 +76,3 @@
       links:
         - label: arXiv
           url: https://arxiv.org/abs/2609.12642
-    - title: >-
-        SpeakSoftly: Scaffolding Nonviolent Communication in Intimate Relationships through LLM-Powered Just-In-Time Interventions
-      venue: 2026 preprint
-      image:
-        src: /images/speaksoftly.png
-        webp: /images/speaksoftly-home.webp
-        alt: SpeakSoftly offers prompts and guidance for more constructive conversations.
-      links:
-        - label: arXiv
-          url: https://arxiv.org/abs/2604.05382
