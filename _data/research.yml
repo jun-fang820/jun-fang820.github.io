@@ -1,0 +1,71 @@
+- id: eating-and-closed-loop
+  title: Eating Behavior & Closed-Loop Systems
+  description: Using wearable signals from everyday meals to understand eating behavior and provide timely feedback.
+  image:
+    src: /images/earinter.PNG
+    webp: /images/earinter-home.webp
+    width: 2787
+    height: 1647
+    alt: Earinter uses earbud sensing to deliver feedback during meals.
+  papers:
+    - title: >-
+        Earinter: A Closed-Loop System for Eating Pace Regulation with Just-in-Time Intervention Using Commodity Earbuds
+      venue: IMWUT 2026
+      links:
+        - label: Paper
+          url: https://dl.acm.org/doi/10.1145/3831629
+        - label: Video
+          url: /video/earinter/IMWUT-Feb262705-teaser.mp4
+    - title: A Review of Behavioral Closed-Loop Paradigm from Sensing to Intervention for Ingestion Health
+      venue: IMWUT 2025
+      links:
+        - label: Paper
+          url: https://dl.acm.org/doi/10.1145/3770668
+    - title: >-
+        Capturing Chewing and Swallowing with Earables: A Multimodal Dataset Across Contexts
+      venue: CHI 2026 Workshop
+
+- id: habits-and-behavior-change
+  title: Habit Formation & Behavior Change
+  description: Studying how interactive tools can help people establish new routines around food and eating.
+  image:
+    src: /images/premeal_habit.png
+    webp: /images/premeal-habit-home.webp
+    width: 3146
+    height: 1436
+    alt: Prompts, reflection, and social support for a pre-meal photo habit.
+  papers:
+    - title: >-
+        Supporting Habit Formation in Pre-Meal Photo Capture: A Longitudinal Study of Behavior Change Techniques
+      venue: 2026 preprint
+      links:
+        - label: arXiv
+          url: https://arxiv.org/abs/2611.02983
+    - title: >-
+        StoryEcho: A Generative Child-as-Actor Storytelling System for Picky-Eating Intervention
+      venue: 2026 preprint
+      links:
+        - label: arXiv
+          url: https://arxiv.org/abs/2604.08114
+
+- id: reflection-and-well-being
+  title: Reflection & Everyday Well-Being
+  description: Designing tools to revisit positive experiences and support difficult conversations.
+  image:
+    src: /images/laughanchor.png
+    webp: /images/laughanchor-home.webp
+    width: 2671
+    height: 1082
+    alt: LaughAnchor uses moments of laughter to help people revisit positive experiences.
+  papers:
+    - title: Reconstruction and Reflection of Positive Experiences through Resurfacing Laughter-indexed Everyday Moments
+      venue: 2026 preprint
+      links:
+        - label: arXiv
+          url: https://arxiv.org/abs/2609.12642
+    - title: >-
+        SpeakSoftly: Scaffolding Nonviolent Communication in Intimate Relationships through LLM-Powered Just-In-Time Interventions
+      venue: 2026 preprint
+      links:
+        - label: arXiv
+          url: https://arxiv.org/abs/2604.05382
