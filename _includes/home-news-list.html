@@ -1,0 +1,8 @@
+<ul class="home-news-list">
+  {% for update in include.items %}
+  <li>
+    <time datetime="{{ update.date | escape }}">{{ update.date | replace: '-', '.' }}</time>
+    <div>{{ update.text | markdownify }}</div>
+  </li>
+  {% endfor %}
+</ul>
