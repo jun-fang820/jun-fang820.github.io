@@ -11,14 +11,13 @@ redirect_from:
 
 <section id="about-me" class="home-hero" aria-labelledby="home-title">
   <div class="home-hero__identity">
-    <p class="home-kicker">Third-year Ph.D. student &middot; Tsinghua University</p>
     <h1 id="home-title">{{ site.author.name | escape }}</h1>
   </div>
   <figure class="home-portrait">
     <img src="{{ '/images/portrait-riverside.webp' | relative_url }}" width="1080" height="1440" alt="Portrait of {{ site.author.name | escape }} by a river">
   </figure>
   <div class="home-hero__bio">
-    <p class="home-bio">I work in the <a href="https://pi.cs.tsinghua.edu.cn/">Pervasive Interaction Lab</a>, advised by <a href="https://scholar.google.com/citations?user=TZm3-pwAAAAJ">Prof. Yuanchun Shi</a> and <a href="https://scholar.google.com/citations?user=kHpwoAUAAAAJ">A/Prof. Yuntao Wang</a>.</p>
+    <p class="home-bio">I'm a third-year Ph.D. student in the <a href="https://pi.cs.tsinghua.edu.cn/">Pervasive Interaction Lab</a> at Tsinghua University, advised by <a href="https://scholar.google.com/citations?user=TZm3-pwAAAAJ">Prof. Yuanchun Shi</a> and <a href="https://scholar.google.com/citations?user=kHpwoAUAAAAJ">A/Prof. Yuntao Wang</a>.</p>
     <p class="home-bio">I study eating behavior and build closed-loop systems to support behavior change in everyday life.</p>
     <div class="home-links">
       <a href="mailto:{{ site.author.email }}">Email</a>
@@ -30,34 +29,42 @@ redirect_from:
   </div>
 </section>
 
-<section class="home-section" aria-labelledby="research">
+{% assign news = site.data.news | sort: 'date' | reverse %}
+{% assign recent_news = news | slice: 0, 3 %}
+<section class="home-section home-news" aria-labelledby="news">
+  <div class="home-section__heading">
+    <h2 id="news">News</h2>
+  </div>
+  {% include home-news-list.html items=recent_news %}
+  {% if news.size > 3 %}
+  {% assign earlier_news = news | slice: 3, news.size %}
+  <details class="home-news-archive">
+    <summary>Earlier news</summary>
+    {% include home-news-list.html items=earlier_news %}
+  </details>
+  {% endif %}
+</section>
+
+<section class="home-section" aria-labelledby="research" data-research-tabs>
   <div class="home-section__heading">
     <h2 id="research">Research</h2>
     <a class="home-all-papers" href="{{ '/publications/' | relative_url }}">All publications <span aria-hidden="true">&rarr;</span></a>
   </div>
-  <nav class="home-research-index" aria-label="Research directions">
+  <nav class="home-research-tabs" aria-label="Research directions" data-research-tablist>
     {% for topic in site.data.research %}
-    <a href="#research-{{ topic.id }}">
-      <span>{{ topic.short_title | escape }}</span>
-      <span class="home-research-index__arrow" aria-hidden="true">&darr;</span>
-    </a>
+    <a href="#research-{{ topic.id }}" id="tab-{{ topic.id }}">{{ topic.short_title | escape }}</a>
     {% endfor %}
   </nav>
   {% for topic in site.data.research %}
-  <section class="home-research-line" aria-labelledby="research-{{ topic.id }}">
-    <div class="home-research-line__intro">
-      <h3 id="research-{{ topic.id }}">{{ topic.title | escape }}</h3>
+  <section class="home-research-module" id="research-{{ topic.id }}" aria-labelledby="topic-{{ topic.id }}">
+    <div class="home-research-module__intro">
+      <h3 id="topic-{{ topic.id }}">{{ topic.title | escape }}</h3>
       <p>{{ topic.description | escape }}</p>
     </div>
-    <ul class="home-research-line__papers">
+    <ul class="home-research-module__papers">
       {% for paper in topic.papers %}
       <li class="home-research-paper">
-        <a class="home-research-paper__image" href="{{ paper.image.src | relative_url }}" target="_blank" rel="noopener" aria-label="View figure for {{ paper.title | escape }}">
-          <picture>
-            <source srcset="{{ paper.image.webp | relative_url }}" type="image/webp">
-            <img src="{{ paper.image.src | relative_url }}" width="{{ paper.image.width }}" height="{{ paper.image.height }}" alt="{{ paper.image.alt | escape }}" loading="lazy" decoding="async">
-          </picture>
-        </a>
+        {% include paper-figure.html class_name="paper-figure home-research-paper__image" src=paper.image.src preview=paper.image.webp label=paper.title alt=paper.image.alt %}
         <div>
           <h4>{{ paper.title | escape }}</h4>
           <div class="home-research-paper__meta">
@@ -72,22 +79,6 @@ redirect_from:
     </ul>
   </section>
   {% endfor %}
-</section>
-
-{% assign news = site.data.news | sort: 'date' | reverse %}
-{% assign recent_news = news | slice: 0, 3 %}
-<section class="home-section" aria-labelledby="news">
-  <div class="home-section__heading">
-    <h2 id="news">News</h2>
-  </div>
-  {% include home-news-list.html items=recent_news %}
-  {% if news.size > 3 %}
-  {% assign earlier_news = news | slice: 3, news.size %}
-  <details class="home-news-archive">
-    <summary>Earlier news</summary>
-    {% include home-news-list.html items=earlier_news %}
-  </details>
-  {% endif %}
 </section>
 
 <section class="home-section home-background" aria-labelledby="background">

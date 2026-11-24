@@ -1,0 +1,75 @@
+.home-page,
+.publications-page {
+  --site-paper: #faf7f0;
+  --site-muted: #5f584f;
+  background: radial-gradient(ellipse at 84% 0, #f2e7d8 0, transparent 48rem), var(--site-paper);
+  color: var(--site-ink);
+  font-family: var(--site-sans);
+
+  #main {
+    width: 100%;
+    max-width: var(--site-width);
+    margin: 0 auto;
+    padding: 0 var(--site-gutter);
+    animation: none;
+
+    .page {
+      float: none;
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+  .page__content {
+    line-height: 1.6;
+
+    h1,
+    h2,
+    h3 {
+      margin: 0;
+      font-family: var(--site-display);
+      font-weight: 500;
+      line-height: 1.1;
+      scroll-margin-top: 1rem;
+    }
+
+    h1 {
+      border: 0;
+      padding: 0;
+      font-size: clamp(3rem, 7.4vw, 5.6rem);
+      letter-spacing: -0.045em;
+    }
+
+    h2 {
+      font-size: clamp(1.85rem, 4.5vw, 2.65rem);
+      letter-spacing: -0.03em;
+    }
+
+    h3 {
+      font-size: clamp(1.38rem, 2.6vw, 1.85rem);
+    }
+
+    a {
+      color: var(--site-accent);
+      text-underline-offset: 0.16em;
+    }
+  }
+
+  .paper-figure {
+    display: block;
+    aspect-ratio: 2.4 / 1;
+    border: 1px solid var(--site-rule);
+    background: #fbf8f2;
+
+    picture,
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+
+    img {
+      object-fit: contain;
+    }
+  }
+}

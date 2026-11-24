@@ -9,8 +9,6 @@
       image:
         src: /images/earinter.PNG
         webp: /images/earinter-home.webp
-        width: 2787
-        height: 1647
         alt: Earinter uses earbud sensing to deliver feedback during meals.
       links:
         - label: Paper
@@ -22,22 +20,10 @@
       image:
         src: /images/Behavior_survey.jpg
         webp: /images/behavior-survey-home.webp
-        width: 2428
-        height: 660
         alt: Diagram connecting eating behavior, sensing, reasoning, and intervention in a closed loop.
       links:
         - label: Paper
           url: https://dl.acm.org/doi/10.1145/3770668
-    - title: >-
-        Capturing Chewing and Swallowing with Earables: A Multimodal Dataset Across Contexts
-      venue: CHI 2026 Workshop
-      image:
-        src: /images/everyday_workshop.png
-        webp: /images/earables-dataset-home.webp
-        width: 1854
-        height: 616
-        alt: Comparison of sensing modalities and annotations across eating behavior datasets.
-
 - id: habits-and-behavior-change
   title: Habit Formation & Behavior Change
   short_title: Habit Formation
@@ -49,8 +35,6 @@
       image:
         src: /images/premeal_habit.png
         webp: /images/premeal-habit-home.webp
-        width: 3146
-        height: 1436
         alt: Prompts, reflection, and social support for a pre-meal photo habit.
       links:
         - label: arXiv
@@ -61,8 +45,6 @@
       image:
         src: /images/storyecho.png
         webp: /images/storyecho-home.webp
-        width: 2160
-        height: 907
         alt: StoryEcho connects a story starring the child with trying foods at mealtime.
       links:
         - label: arXiv
@@ -78,8 +60,6 @@
       image:
         src: /images/laughanchor.png
         webp: /images/laughanchor-home.webp
-        width: 2671
-        height: 1082
         alt: LaughAnchor uses moments of laughter to help people revisit positive experiences.
       links:
         - label: arXiv
@@ -90,8 +70,6 @@
       image:
         src: /images/speaksoftly.png
         webp: /images/speaksoftly-home.webp
-        width: 3159
-        height: 933
         alt: SpeakSoftly offers prompts and guidance for more constructive conversations.
       links:
         - label: arXiv
