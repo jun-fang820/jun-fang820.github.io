@@ -1,0 +1,17 @@
+<dialog id="research-viewer" class="research-viewer" aria-labelledby="research-viewer-title" data-research-viewer>
+  <header class="research-viewer__bar">
+    <h2 id="research-viewer-title" data-viewer-title></h2>
+    <div class="research-viewer__actions">
+      <a data-viewer-original target="_blank" rel="noopener">Open original</a>
+      <form method="dialog">
+        <button type="submit" aria-label="Close preview" title="Close preview" autofocus>
+          <i class="fas fa-times" aria-hidden="true"></i>
+        </button>
+      </form>
+    </div>
+  </header>
+  <div class="research-viewer__content">
+    <p class="research-viewer__status" data-viewer-status role="status" hidden></p>
+    <div class="research-viewer__media" data-viewer-media></div>
+  </div>
+</dialog>

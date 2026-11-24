@@ -70,7 +70,7 @@ redirect_from:
     <ul class="home-research-module__papers">
       {% for paper in topic.papers %}
       <li class="home-research-paper">
-        {% include paper-figure.html class_name="paper-figure home-research-paper__image" src=paper.image.src preview=paper.image.webp label=paper.title alt=paper.image.alt %}
+        {% include paper-figure.html class_name="paper-figure home-research-paper__image" src=paper.image.src preview=paper.image.webp label=paper.title alt=paper.image.alt viewer=true %}
         <div>
           <h4>{{ paper.name | default: paper.title | escape }}</h4>
           {% if paper.summary %}
@@ -84,7 +84,7 @@ redirect_from:
             <span>{{ paper.status | escape }}</span>
             {% endif %}
             {% for link in paper.links %}
-            <a href="{{ link.url | relative_url | escape }}" aria-label="{{ link.label | escape }}: {{ paper.title | escape }}">{{ link.label | escape }}</a>
+            <a href="{{ link.url | relative_url | escape }}" aria-label="{{ link.label | escape }}: {{ paper.title | escape }}"{% if link.viewer == 'video' %} data-research-preview="video" data-preview-poster="{{ link.poster | relative_url | escape }}" data-preview-captions="{{ link.captions | relative_url | escape }}"{% endif %}>{{ link.label | escape }}</a>
             {% endfor %}
           </div>
         </div>
@@ -94,6 +94,7 @@ redirect_from:
   </section>
   {% endfor %}
   </div>
+  {% include research-viewer.html %}
 </section>
 
 <section class="home-section home-background" aria-labelledby="background">

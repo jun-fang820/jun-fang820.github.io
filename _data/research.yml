@@ -18,6 +18,9 @@
           url: https://dl.acm.org/doi/10.1145/3831629
         - label: Video
           url: /video/earinter/IMWUT-Feb262705-teaser.mp4
+          viewer: video
+          poster: /video/earinter/IMWUT-Feb262705-teaser-%E5%B0%81%E9%9D%A2.jpg
+          captions: /video/earinter/IMWUT-Feb262705-teaser.vtt
     - name: Ingestion Health Review
       title: A Review of Behavioral Closed-Loop Paradigm from Sensing to Intervention for Ingestion Health
       summary: A review of how sensing, reasoning, and intervention connect in systems for ingestion health.
