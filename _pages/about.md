@@ -14,7 +14,9 @@ redirect_from:
     <p class="home-kicker">Third-year Ph.D. student &middot; Tsinghua University</p>
     <h1 id="home-title">{{ site.author.name | escape }}</h1>
   </div>
-  <img class="home-portrait" src="{{ '/images/portrait-home.jpg' | relative_url }}" width="720" height="900" alt="Portrait of {{ site.author.name | escape }}">
+  <figure class="home-portrait">
+    <img src="{{ '/images/portrait-riverside.webp' | relative_url }}" width="1080" height="1440" alt="Portrait of {{ site.author.name | escape }} by a river">
+  </figure>
   <div class="home-hero__bio">
     <p class="home-bio">I work in the <a href="https://pi.cs.tsinghua.edu.cn/">Pervasive Interaction Lab</a>, advised by <a href="https://scholar.google.com/citations?user=TZm3-pwAAAAJ">Prof. Yuanchun Shi</a> and <a href="https://scholar.google.com/citations?user=kHpwoAUAAAAJ">A/Prof. Yuntao Wang</a>.</p>
     <p class="home-bio">I study eating behavior and build closed-loop systems to support behavior change in everyday life.</p>
@@ -33,6 +35,14 @@ redirect_from:
     <h2 id="research">Research</h2>
     <a class="home-all-papers" href="{{ '/publications/' | relative_url }}">All publications <span aria-hidden="true">&rarr;</span></a>
   </div>
+  <nav class="home-research-index" aria-label="Research directions">
+    {% for topic in site.data.research %}
+    <a href="#research-{{ topic.id }}">
+      <span>{{ topic.short_title | escape }}</span>
+      <span class="home-research-index__arrow" aria-hidden="true">&darr;</span>
+    </a>
+    {% endfor %}
+  </nav>
   {% for topic in site.data.research %}
   <section class="home-research-line" aria-labelledby="research-{{ topic.id }}">
     <div class="home-research-line__intro">
@@ -41,21 +51,25 @@ redirect_from:
     </div>
     <ul class="home-research-line__papers">
       {% for paper in topic.papers %}
-      <li>
-        <h4>{{ paper.title | escape }}</h4>
-        <div class="home-research-paper__meta">
-          <span>{{ paper.venue | escape }}</span>
-          {% for link in paper.links %}
-          <a href="{{ link.url | relative_url | escape }}" aria-label="{{ link.label | escape }}: {{ paper.title | escape }}">{{ link.label | escape }}</a>
-          {% endfor %}
+      <li class="home-research-paper">
+        <a class="home-research-paper__image" href="{{ paper.image.src | relative_url }}" target="_blank" rel="noopener" aria-label="View figure for {{ paper.title | escape }}">
+          <picture>
+            <source srcset="{{ paper.image.webp | relative_url }}" type="image/webp">
+            <img src="{{ paper.image.src | relative_url }}" width="{{ paper.image.width }}" height="{{ paper.image.height }}" alt="{{ paper.image.alt | escape }}" loading="lazy" decoding="async">
+          </picture>
+        </a>
+        <div>
+          <h4>{{ paper.title | escape }}</h4>
+          <div class="home-research-paper__meta">
+            <span>{{ paper.venue | escape }}</span>
+            {% for link in paper.links %}
+            <a href="{{ link.url | relative_url | escape }}" aria-label="{{ link.label | escape }}: {{ paper.title | escape }}">{{ link.label | escape }}</a>
+            {% endfor %}
+          </div>
         </div>
       </li>
       {% endfor %}
     </ul>
-    <picture class="home-research-line__image">
-      <source srcset="{{ topic.image.webp | relative_url }}" type="image/webp">
-      <img src="{{ topic.image.src | relative_url }}" width="{{ topic.image.width }}" height="{{ topic.image.height }}" alt="{{ topic.image.alt | escape }}">
-    </picture>
   </section>
   {% endfor %}
 </section>
