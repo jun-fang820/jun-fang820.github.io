@@ -26,7 +26,7 @@ redirect_from:
   </div>
   <div class="home-hero__bio">
     <p class="home-bio">I'm a third-year Ph.D. student in the <a href="https://pi.cs.tsinghua.edu.cn/">Pervasive Interaction Lab</a> at Tsinghua University, advised by <a href="https://scholar.google.com/citations?user=TZm3-pwAAAAJ">Prof. Yuanchun Shi</a> and <a href="https://scholar.google.com/citations?user=kHpwoAUAAAAJ">A/Prof. Yuntao Wang</a>. Previously, I earned my B.S. from the Department of Automation at Tsinghua University.</p>
-    <p class="home-bio">I study how wearable sensing can help us understand everyday behaviors and inform interventions. My work focuses on ingestion health and behavior change, with broader interests in well-being.</p>
+    <p class="home-bio">I study how wearable sensing can help us understand everyday behaviors and inform interventions. My work focuses on <strong>ingestion health</strong> and <strong>behavior change</strong>, with broader interests in <strong>well-being</strong>.</p>
     <p class="home-note">Open to research internships, collaborations, and visiting opportunities.</p>
   </div>
 </section>
