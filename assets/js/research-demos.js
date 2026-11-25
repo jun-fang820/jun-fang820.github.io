@@ -170,9 +170,10 @@
     const description = demo.querySelector("[data-meal-description]");
     const summary = description.textContent;
     const scenes = [
-      ["reminder", "Prompts/cues", "Cue the routine: take a photo before the first bite."],
-      ["success", "Focus on past success", "Revisit a successful capture as the routine takes shape."],
-      ["support", "Social support", "Share a meal photo when you want support for the routine."]
+      ["reminder", "Prompts/cues", "A mealtime reminder cues the photo before the first bite."],
+      ["success", "Focus on past success", "Revisit a meal you remembered to photograph before eating."],
+      ["support", "Social support", "Share a meal photo by choice for a brief, supportive response."],
+      ["habit", "Across repeated meals", "Taking the photo can feel more natural. Support can stay available."]
     ];
     setupScenes(demo, scenes, 2900, scene => {
       const [name, label, copy] = scene ?? ["reminder", "", summary];
@@ -215,40 +216,67 @@
 
   const setupLaughAnchor = demo => {
     const button = demo.querySelector("[data-laugh-context]");
+    const visits = demo.querySelector("[data-laugh-visits]");
     const when = demo.querySelector("[data-laugh-when]");
     const kicker = demo.querySelector("[data-laugh-kicker]");
     const copy = demo.querySelector("[data-laugh-copy]");
     const options = demo.querySelectorAll("[data-laugh-view]");
-    const later = [kicker.textContent, copy.textContent];
-    const recent = ["Cues shown together", "The photo helps distinguish this from other recent moments."];
-    const note = ["My note", '"We laughed at our wrong turn. I liked the detour."'];
+    const wave = demo.querySelector("[data-laugh-wave]");
+    const moments = {
+      recent: {
+        title: "Recent review",
+        cue: ["Relive the moment", "The same laugh brings back how the walk felt."],
+        note: ["My note", '"We took a wrong turn and laughed all the way back."']
+      },
+      later: {
+        title: "Later review",
+        cue: ["Rediscover the moment", "Start with the laugh. Look closer if you want."],
+        note: ["My reflection", '"I had forgotten how much those little walks meant to me."']
+      }
+    };
+    let cueAnimation;
 
     const render = () => {
-      const isRecent = demo.dataset.view === "recent";
+      const view = demo.dataset.view;
       const open = demo.hasAttribute("data-context");
-      const [title, text] = open ? note : isRecent ? recent : later;
-      when.textContent = isRecent ? "Recent review" : "Later review";
+      const moment = moments[view];
+      const [title, text] = open ? moment.note : moment.cue;
+      when.textContent = moment.title;
       kicker.textContent = title;
       copy.textContent = text;
-      button.textContent = isRecent ? (open ? "Hide note" : "Read note") : (open ? "Hide photo & note" : "Reveal photo & note");
+      button.textContent = view === "recent" ? (open ? "Hide note" : "Read note") : (open ? "Hide photo & note" : "Reveal photo & note");
       button.setAttribute("aria-expanded", String(open));
+    };
+
+    const resurface = view => {
+      if (demo.dataset.view === view) return;
+      demo.dataset.view = view;
+      demo.removeAttribute("data-context");
+      visits.hidden = false;
+      options.forEach(option => option.setAttribute("aria-pressed", String(option.dataset.laughView === view)));
+      render();
+
+      if (!reduceMotion.matches && typeof wave.animate === "function") {
+        cueAnimation?.cancel();
+        cueAnimation = wave.animate(
+          [{ strokeDasharray: "100 100", strokeDashoffset: "100" }, { strokeDasharray: "100 100", strokeDashoffset: "0" }],
+          { duration: 440, easing: "ease-out" }
+        );
+      }
     };
 
     button.disabled = false;
     button.addEventListener("click", () => {
+      if (demo.dataset.view === "saved") {
+        resurface("recent");
+        return;
+      }
       demo.toggleAttribute("data-context");
       render();
     });
     options.forEach(option => {
       option.disabled = false;
-      option.addEventListener("click", () => {
-        const view = option.dataset.laughView;
-        if (demo.dataset.view === view) return;
-        demo.dataset.view = view;
-        demo.removeAttribute("data-context");
-        options.forEach(item => item.setAttribute("aria-pressed", String(item === option)));
-        render();
-      });
+      option.addEventListener("click", () => resurface(option.dataset.laughView));
     });
   };
 
