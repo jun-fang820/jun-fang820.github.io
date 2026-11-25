@@ -12,6 +12,7 @@
         Earinter: A Closed-Loop System for Eating Pace Regulation with Just-in-Time Intervention Using Commodity Earbuds
       summary: Sensing eating pace through everyday earbuds to offer timely feedback during meals.
       venue: IMWUT 2026
+      demo: earinter
       image:
         src: /images/earinter.PNG
         webp: /images/earinter-home.webp

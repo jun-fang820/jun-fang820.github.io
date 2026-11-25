@@ -78,8 +78,12 @@ redirect_from:
     </div>
     <ul id="research-papers-{{ topic.id }}" class="home-research-module__papers{% if topic.papers.size == 1 %} home-research-module__papers--single{% endif %}" aria-label="Selected work: {{ topic.short_title | escape }}" data-research-paper-track>
       {% for paper in topic.papers %}
-      <li class="home-research-paper">
+      <li class="home-research-paper{% if paper.demo == 'earinter' %} home-research-paper--demo{% endif %}">
+        {% if paper.demo == 'earinter' %}
+        {% include research-demos/earinter.html %}
+        {% else %}
         {% include paper-figure.html class_name="paper-figure home-research-paper__image" src=paper.image.src preview=paper.image.webp label=paper.title alt=paper.image.alt viewer=true %}
+        {% endif %}
         <div>
           <h4>{{ paper.name | default: paper.title | escape }}</h4>
           {% if paper.summary %}
