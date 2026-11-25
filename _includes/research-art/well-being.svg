@@ -2,34 +2,26 @@
   <title>Everyday well-being study</title>
   <desc>Layered ink impressions echo a small point, inspired by the resurfacing of positive moments in LaughAnchor.</desc>
   <defs>
-    <pattern id="well-being-paper-dots" width="5" height="5" patternUnits="userSpaceOnUse">
-      <circle cx=".7" cy="2.1" r=".35" fill="#85533a" opacity=".25"/>
-      <circle cx="3.5" cy="4.4" r=".25" fill="#85533a" opacity=".18"/>
-    </pattern>
-    <pattern id="well-being-ink-dots" width="3" height="3" patternUnits="userSpaceOnUse">
-      <circle cx=".9" cy="1.1" r=".38" fill="#f6e7d2" opacity=".48"/>
-    </pattern>
     <path id="well-being-impression" d="M-44 3C-47-14-28-29-7-32C17-36 43-31 48-13C55 7 40 24 17 29C-8 35-41 25-44 3Z"/>
   </defs>
-  <rect width="480" height="86" fill="url(#well-being-paper-dots)"/>
-  <path d="M18 13H132 M18 73H462" fill="none" stroke="#875342" stroke-width=".55" opacity=".4"/>
+  <path d="M18 73H462" fill="none" stroke="#875342" stroke-width=".65" opacity=".25"/>
   <path d="M24 47H247" fill="none" stroke="#9d5d48" stroke-width=".75" stroke-dasharray="1.5 4" opacity=".56"/>
   <g transform="translate(66 0)">
     <circle cx="62" cy="47" r="3.1" fill="#94503b"/>
     <circle cx="99" cy="47" r="5.5" fill="none" stroke="#a35a44" stroke-width=".8" opacity=".56"/>
     <g class="research-plate-echo-far">
-      <use href="#well-being-impression" transform="translate(298 49) rotate(-21) scale(1.42)" fill="#ad6650"/>
-      <use href="#well-being-impression" transform="translate(298 49) rotate(-21) scale(1.42)" fill="url(#well-being-ink-dots)"/>
+      <use href="#well-being-impression" transform="translate(298 49) rotate(-21) scale(1.42)"
+        fill="#ad6650" fill-opacity=".07" stroke="#a35a44" stroke-width=".8" stroke-opacity=".46"/>
       <use href="#well-being-impression" transform="translate(280 49) rotate(-16) scale(1.23)"
-        fill="none" stroke="#f5d8ba" stroke-width=".55" opacity=".74"/>
+        fill="none" stroke="#a35a44" stroke-width=".55" opacity=".38"/>
     </g>
     <g class="research-plate-echo-middle">
       <use href="#well-being-impression" transform="translate(238 40) rotate(14) scale(1.06)"
-        fill="#c48d70" stroke="#f7dfc8" stroke-width="1" fill-opacity=".79"/>
+        fill="#a35a44" stroke="#a35a44" stroke-width=".95" fill-opacity=".1" stroke-opacity=".55"/>
     </g>
     <g class="research-plate-echo-near">
       <use href="#well-being-impression" transform="translate(181 46) rotate(-12) scale(.74)"
-        fill="#e8c5ac" stroke="#a35a44" stroke-width="1.15" fill-opacity=".64"/>
+        fill="#a35a44" stroke="#a35a44" stroke-width="1.15" fill-opacity=".09" stroke-opacity=".65"/>
       <use href="#well-being-impression" transform="translate(168 47) rotate(-7) scale(.48)"
         fill="none" stroke="#a35a44" stroke-width="1.15" opacity=".78"/>
     </g>

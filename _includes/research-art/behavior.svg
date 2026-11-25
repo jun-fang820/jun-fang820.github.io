@@ -2,35 +2,26 @@
   <title>Behavior change study</title>
   <desc>Repeated meal-photo frames with a single offset cue, evoking routines and timely support.</desc>
   <defs>
-    <pattern id="behavior-paper-dots" width="5" height="5" patternUnits="userSpaceOnUse">
-      <circle cx=".7" cy="2.1" r=".35" fill="#85533a" opacity=".25"/>
-      <circle cx="3.5" cy="4.4" r=".25" fill="#85533a" opacity=".18"/>
-    </pattern>
-    <pattern id="behavior-ink-dots" width="3" height="3" patternUnits="userSpaceOnUse">
-      <circle cx=".9" cy="1.1" r=".38" fill="#f6e7d2" opacity=".48"/>
-    </pattern>
     <g id="behavior-exposure">
       <ellipse cx="-2" cy="-1" rx="24" ry="14" transform="rotate(-17)" fill="none" stroke="currentColor" stroke-width="1.2"/>
       <ellipse cx="-2" cy="-1" rx="16" ry="8.5" transform="rotate(-17)" fill="none" stroke="currentColor" stroke-width=".7" opacity=".75"/>
       <path d="M-28-12v-6h6 M22-18h6v6 M28 11v6h-6 M-22 17h-6v-6" fill="none" stroke="currentColor" stroke-width=".75"/>
     </g>
     <g id="behavior-frame">
-      <rect x="-37" y="-25" width="74" height="50" fill="#f6e9d9" stroke="#a2604a" stroke-width=".9"/>
+      <rect x="-37" y="-25" width="74" height="50" fill="#a35a44" fill-opacity=".045" stroke="#a2604a" stroke-width=".9"/>
       <path d="M-37 12h74" stroke="#ac745c" stroke-width=".55" opacity=".55"/>
       <use href="#behavior-exposure" color="#9c563f"/>
     </g>
   </defs>
-  <rect width="480" height="86" fill="url(#behavior-paper-dots)"/>
-  <path d="M18 73H462 M18 13H128 M357 58H457" fill="none" stroke="#875342" stroke-width=".55" opacity=".4"/>
+  <path d="M18 73H462" fill="none" stroke="#875342" stroke-width=".65" opacity=".25"/>
   <g transform="translate(66 0)">
     <use href="#behavior-frame" transform="translate(71 45) rotate(-11)" opacity=".5"/>
     <use href="#behavior-frame" transform="translate(147 44) rotate(6)" opacity=".76"/>
     <g class="research-plate-exposure">
-      <rect x="194" y="19" width="77" height="52" fill="#d3a18a" transform="rotate(5 232 45)" opacity=".54"/>
+      <rect x="194" y="19" width="77" height="52" fill="#a35a44" fill-opacity=".08" transform="rotate(5 232 45)"/>
       <g transform="translate(229 43) rotate(-5)">
-        <rect x="-38" y="-26" width="76" height="52" fill="#a35a44"/>
-        <rect x="-38" y="-26" width="76" height="52" fill="url(#behavior-ink-dots)"/>
-        <use href="#behavior-exposure" color="#ffecd6"/>
+        <rect x="-38" y="-26" width="76" height="52" fill="#a35a44" fill-opacity=".15" stroke="#a35a44" stroke-width="1.1"/>
+        <use href="#behavior-exposure" color="#85432e"/>
       </g>
     </g>
     <g class="research-plate-cue">

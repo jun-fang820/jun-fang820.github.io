@@ -243,11 +243,26 @@
 
   .home-research-module__papers {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 1.2rem var(--research-column-gap);
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% - var(--research-column-gap)) / 2);
+    gap: var(--research-column-gap);
     margin: 0;
-    padding: 0;
+    padding: 0 0 0.25rem;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: thin;
+    scrollbar-color: var(--site-rule) transparent;
     list-style-type: none;
+
+    &:focus-visible {
+      outline: 2px solid var(--site-accent);
+      outline-offset: 2px;
+    }
+
+    .home-research-paper__image[aria-haspopup="dialog"]:focus-visible {
+      outline-offset: -3px;
+    }
 
     h4 {
       margin: 0;
@@ -258,16 +273,64 @@
     }
   }
 
+  .home-research-module__papers--single {
+    grid-auto-columns: 100%;
+  }
+
   .home-research-paper {
     display: grid;
     align-content: start;
+    min-width: 0;
     gap: 0.7rem;
+    scroll-snap-align: start;
 
     &:only-child {
-      grid-column: 1 / -1;
       grid-template-columns: repeat(2, minmax(0, 1fr));
       align-items: center;
       column-gap: var(--research-column-gap);
+    }
+  }
+
+  .home-research-paper-controls {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.8rem;
+    margin-top: 0.4rem;
+    color: var(--site-muted);
+    font-size: 0.875rem;
+
+    &[hidden] {
+      display: none;
+    }
+
+    span {
+      font-variant-numeric: tabular-nums;
+    }
+
+    button {
+      min-height: 2.75rem;
+      padding: 0 0.25rem;
+      border: 0;
+      background: none;
+      color: var(--site-accent);
+      font: inherit;
+      font-weight: 600;
+      text-decoration: underline;
+      text-underline-offset: 0.16em;
+      cursor: pointer;
+
+      &[aria-disabled="true"] {
+        color: var(--site-muted);
+        opacity: 0.65;
+        text-decoration: none;
+        cursor: default;
+      }
+
+      &:focus-visible {
+        outline: 2px solid var(--site-accent);
+        outline-offset: 2px;
+      }
     }
   }
 
@@ -407,9 +470,12 @@
       }
     }
 
-    .home-research-module__intro,
-    .home-research-module__papers {
+    .home-research-module__intro {
       grid-template-columns: 1fr;
+    }
+
+    .home-research-module__papers {
+      grid-auto-columns: 100%;
     }
 
     .home-research-paper,

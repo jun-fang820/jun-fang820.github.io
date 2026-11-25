@@ -25,8 +25,8 @@ redirect_from:
     </nav>
   </div>
   <div class="home-hero__bio">
-    <p class="home-bio">I'm a third-year Ph.D. student in the <a href="https://pi.cs.tsinghua.edu.cn/">Pervasive Interaction Lab</a> at Tsinghua University, advised by <a href="https://scholar.google.com/citations?user=TZm3-pwAAAAJ">Prof. Yuanchun Shi</a> and <a href="https://scholar.google.com/citations?user=kHpwoAUAAAAJ">A/Prof. Yuntao Wang</a>. Previously, I earned my B.S. from the Department of Automation at Tsinghua University.</p>
-    <p class="home-bio">I study how wearable sensing can help us understand everyday behaviors and inform interventions. My work focuses on <strong>ingestion health</strong> and <strong>behavior change</strong>, with broader interests in <strong>well-being</strong>.</p>
+    <p class="home-bio">I'm a third-year Ph.D. student in the <a href="https://pi.cs.tsinghua.edu.cn/">Pervasive Interaction Lab</a> at Tsinghua University, advised by <a href="https://scholar.google.com/citations?user=TZm3-pwAAAAJ">Prof. Yuanchun Shi</a> and <a href="https://scholar.google.com/citations?user=kHpwoAUAAAAJ">A/Prof. Yuntao Wang</a>.</p>
+    <p class="home-bio">I study wearable sensing for <strong>ingestion health</strong> and design interventions for <strong>behavior change</strong>, with broader interests in <strong>well-being</strong>.</p>
     <p class="home-note">Open to research internships, collaborations, and visiting opportunities.</p>
   </div>
 </section>
@@ -76,7 +76,7 @@ redirect_from:
       <h3 id="topic-{{ topic.id }}">{{ topic.title | escape }}</h3>
       <p>{{ topic.description | escape }}</p>
     </div>
-    <ul class="home-research-module__papers">
+    <ul id="research-papers-{{ topic.id }}" class="home-research-module__papers{% if topic.papers.size == 1 %} home-research-module__papers--single{% endif %}" aria-label="Selected work: {{ topic.short_title | escape }}" data-research-paper-track>
       {% for paper in topic.papers %}
       <li class="home-research-paper">
         {% include paper-figure.html class_name="paper-figure home-research-paper__image" src=paper.image.src preview=paper.image.webp label=paper.title alt=paper.image.alt viewer=true %}
@@ -100,6 +100,11 @@ redirect_from:
       </li>
       {% endfor %}
     </ul>
+    <div class="home-research-paper-controls" data-research-paper-controls hidden>
+      <span data-research-paper-count></span>
+      <button type="button" aria-label="Previous paper" aria-controls="research-papers-{{ topic.id }}" data-research-paper-previous>Previous</button>
+      <button type="button" aria-label="Next paper" aria-controls="research-papers-{{ topic.id }}" data-research-paper-next>Next</button>
+    </div>
   </section>
   {% endfor %}
   </div>

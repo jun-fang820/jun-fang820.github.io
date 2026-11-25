@@ -1,3 +1,5 @@
+# Homepage selection: first/co-first-authored main-track or journal papers.
+# Full preprints are also allowed when explicitly labeled Preprint.
 - id: wearable-sensing
   aliases: [eating-and-closed-loop]
   title: Wearable Sensing for Ingestion Health

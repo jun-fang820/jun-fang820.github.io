@@ -12,6 +12,63 @@
     layer.dataset.researchArt, layer
   ]));
   const motion = window.matchMedia("(prefers-reduced-motion: no-preference)");
+
+  const setupPaperTrack = panel => {
+    const track = panel.querySelector("[data-research-paper-track]");
+    const controls = panel.querySelector("[data-research-paper-controls]");
+    if (!track || !controls || track.children.length < 2) return;
+
+    const cards = Array.from(track.children);
+    const previous = controls.querySelector("[data-research-paper-previous]");
+    const next = controls.querySelector("[data-research-paper-next]");
+    const count = controls.querySelector("[data-research-paper-count]");
+    const pitch = () => cards[1].getBoundingClientRect().left - cards[0].getBoundingClientRect().left;
+    let frame = 0;
+
+    const update = () => {
+      const width = track.clientWidth;
+      if (!width) return;
+      const end = track.scrollWidth - width;
+      controls.hidden = end <= 1;
+      if (controls.hidden) {
+        track.removeAttribute("tabindex");
+        return;
+      }
+
+      track.tabIndex = 0;
+      const step = pitch();
+      const first = Math.max(0, Math.round(track.scrollLeft / step)) + 1;
+      const last = Math.min(cards.length, first + Math.max(1, Math.round(width / step)) - 1);
+      count.textContent = `${first === last ? first : `${first}-${last}`} of ${cards.length}`;
+      previous.setAttribute("aria-disabled", String(track.scrollLeft <= 1));
+      next.setAttribute("aria-disabled", String(track.scrollLeft >= end - 1));
+    };
+
+    const move = (button, direction) => {
+      if (button.getAttribute("aria-disabled") === "true") return;
+      const step = pitch();
+      track.scrollTo({
+        left: (Math.round(track.scrollLeft / step) + direction) * step,
+        behavior: motion.matches ? "smooth" : "auto"
+      });
+    };
+
+    previous.addEventListener("click", () => move(previous, -1));
+    next.addEventListener("click", () => move(next, 1));
+    track.addEventListener("scroll", () => {
+      if (frame) return;
+      frame = window.requestAnimationFrame(() => {
+        frame = 0;
+        update();
+      });
+    }, { passive: true });
+    if (typeof ResizeObserver === "function") new ResizeObserver(update).observe(track);
+    else window.addEventListener("resize", update);
+
+    return update;
+  };
+
+  const paperTracks = panels.map(setupPaperTrack);
   let activeIndex = -1;
   let heightTransition;
   const activate = index => {
@@ -35,6 +92,7 @@
       panel.hidden = !active;
     });
     activeIndex = index;
+    paperTracks[index]?.();
 
     if (animate) {
       const nextHeight = panelGroup.offsetHeight;
