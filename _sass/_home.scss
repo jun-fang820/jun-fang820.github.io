@@ -92,6 +92,62 @@
     margin-bottom: 1.35rem;
   }
 
+  .home-research-heading {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    grid-template-areas: "title plate plate" "tabs tabs publications";
+    align-items: center;
+    gap: 0.65rem 1.35rem;
+    margin-bottom: 0;
+    border-bottom: 1px solid var(--site-rule);
+
+    h2 {
+      grid-area: title;
+      scroll-margin-top: 3.5rem;
+    }
+
+    .home-all-papers {
+      grid-area: publications;
+      justify-self: end;
+    }
+  }
+
+  .home-research-plate {
+    display: grid;
+    grid-area: plate;
+    justify-self: start;
+    width: min(100%, 30rem);
+    --plate-edge-fade: linear-gradient(to right, transparent, #000 12%, #000 80%, transparent);
+    -webkit-mask-image: var(--plate-edge-fade);
+    mask-image: var(--plate-edge-fade);
+
+    svg {
+      display: block;
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+      --plate-vertical-fade: linear-gradient(to bottom, transparent, #000 10%, #000 91%, transparent);
+      -webkit-mask-image: var(--plate-vertical-fade);
+      mask-image: var(--plate-vertical-fade);
+    }
+
+    .research-plate-readout {
+      display: none;
+    }
+  }
+
+  .home-research-plate__layer {
+    grid-area: 1 / 1;
+    min-width: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: none;
+
+    &[data-active] {
+      opacity: 1;
+    }
+  }
+
   .home-all-papers {
     display: inline-flex;
     align-items: center;
@@ -103,8 +159,9 @@
 
   .home-research-tabs {
     display: flex;
+    grid-area: tabs;
+    min-width: 0;
     gap: clamp(1rem, 4vw, 2rem);
-    box-shadow: inset 0 -1px var(--site-rule);
 
     a {
       position: relative;
@@ -318,8 +375,30 @@
       margin-top: 0;
     }
 
+    .home-research-heading {
+      grid-template-columns: minmax(0, 1fr) auto;
+      grid-template-areas: "title publications" "plate plate" "tabs tabs";
+      gap: 0.5rem 1.1rem;
+
+      h2 {
+        scroll-margin-top: 1rem;
+      }
+    }
+
+    .home-research-plate {
+      width: min(100%, 17rem);
+
+      svg {
+        // Keep the central composition at its original scale on narrow screens.
+        width: calc(100% * 480 / 348);
+        max-width: none;
+        margin-left: calc(-100% * 66 / 348);
+      }
+    }
+
     .home-research-tabs {
       gap: 0.75rem;
+      margin-top: 0.85rem;
 
       a {
         flex: 1 1 auto;
@@ -357,6 +436,39 @@
     .home-hero__identity,
     .home-portrait {
       animation: home-enter 0.45s ease-out both;
+    }
+
+    .home-research-plate__layer {
+      transition: opacity 0.2s ease-out;
+    }
+
+    .home-research-plate[data-scroll-motion] {
+      --plate-offset: calc(var(--plate-progress, 0.5) - 0.5);
+
+      .research-plate-readout {
+        display: inline;
+      }
+
+      .research-plate-exposure {
+        transform: translateX(calc(var(--plate-offset) * 18px));
+      }
+
+      .research-plate-cue {
+        transform: translateX(calc(var(--plate-offset) * -24px));
+        opacity: calc(0.65 + var(--plate-progress) * 0.35);
+      }
+
+      .research-plate-echo-near {
+        transform: translateX(calc(var(--plate-offset) * 8px));
+      }
+
+      .research-plate-echo-middle {
+        transform: translateX(calc(var(--plate-offset) * 22px));
+      }
+
+      .research-plate-echo-far {
+        transform: translateX(calc(var(--plate-offset) * 38px));
+      }
     }
 
     .home-research-tabs a {

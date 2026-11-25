@@ -48,15 +48,24 @@ redirect_from:
 </section>
 
 <section class="home-section" aria-labelledby="research" data-research-tabs>
-  <div class="home-section__heading">
+  <div class="home-section__heading home-research-heading">
     <h2 id="research">Research</h2>
+    <div class="home-research-plate" aria-hidden="true">
+      {% for topic in site.data.research %}
+      {% if topic.artwork %}
+      <div class="home-research-plate__layer" data-research-art="research-{{ topic.id }}"{% if forloop.first %} data-active{% endif %}>
+        {% include {{ topic.artwork }} %}
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
     <a class="home-all-papers" href="{{ '/publications/' | relative_url }}">All publications <span aria-hidden="true">&rarr;</span></a>
+    <nav class="home-research-tabs" aria-label="Research directions" data-research-tablist>
+      {% for topic in site.data.research %}
+      <a href="#research-{{ topic.id }}" id="tab-{{ topic.id }}">{{ topic.short_title | escape }}</a>
+      {% endfor %}
+    </nav>
   </div>
-  <nav class="home-research-tabs" aria-label="Research directions" data-research-tablist>
-    {% for topic in site.data.research %}
-    <a href="#research-{{ topic.id }}" id="tab-{{ topic.id }}">{{ topic.short_title | escape }}</a>
-    {% endfor %}
-  </nav>
   <div class="home-research-panels" data-research-panels>
   {% for topic in site.data.research %}
   <section class="home-research-module" id="research-{{ topic.id }}" aria-labelledby="topic-{{ topic.id }}">

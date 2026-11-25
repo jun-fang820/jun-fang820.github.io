@@ -8,6 +8,9 @@
   const panels = tabs.map(tab => document.getElementById(tab.hash.slice(1)));
   if (!tabs.length || panels.some(panel => !panel)) return;
 
+  const artwork = new Map(Array.from(research.querySelectorAll("[data-research-art]"), layer => [
+    layer.dataset.researchArt, layer
+  ]));
   const motion = window.matchMedia("(prefers-reduced-motion: no-preference)");
   let activeIndex = -1;
   let heightTransition;
@@ -23,6 +26,7 @@
       const panel = panels[position];
       tab.setAttribute("aria-selected", String(active));
       tab.tabIndex = active ? 0 : -1;
+      artwork.get(panel.id)?.toggleAttribute("data-active", active);
       if (active && animate) {
         panel.dataset.entering = index < activeIndex ? "backward" : "forward";
       } else {
