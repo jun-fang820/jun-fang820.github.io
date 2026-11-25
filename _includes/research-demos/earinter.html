@@ -1,7 +1,10 @@
-<div class="paper-figure earinter-demo" data-earinter-demo role="group" aria-label="Earinter animation" aria-describedby="earinter-demo-summary">
-  <span class="earinter-demo__label">Simulated chewing signal</span>
+<div class="paper-figure paper-demo earinter-demo" data-earinter-demo role="group" aria-label="Earinter animation" aria-describedby="earinter-demo-summary">
+  <div class="paper-demo__header">
+    <span class="paper-demo__label">Simulated chewing signal</span>
+    {% include research-demos/pause.html name="Earinter animation" %}
+  </div>
   <span class="visually-hidden" id="earinter-demo-summary">In this illustration, Earinter detects fast eating and delivers a brief voice prompt, "More chewing." As the diner slows, the earbud keeps monitoring without another prompt.</span>
-  <svg class="earinter-demo__diagram" viewBox="0 0 420 84" aria-hidden="true" focusable="false">
+  <svg class="paper-demo__diagram" viewBox="0 0 420 84" aria-hidden="true" focusable="false">
     <defs>
       <clipPath id="earinter-trace-window">
         <rect x="10" y="10" width="286" height="62" data-earinter-trace-window=""/>
@@ -21,8 +24,5 @@
       <path class="earinter-demo__cue" d="M45 19q6 6 0 12m6-18q12 12 0 24m6-30q18 18 0 36" fill="none" stroke="#943e2a"/>
     </g>
   </svg>
-  <div class="earinter-demo__controls">
-    <button type="button" data-earinter-replay hidden>Play</button>
-    <p class="earinter-demo__status" aria-hidden="true" data-earinter-status>Fast pace &#8594; voice prompt &#8594; slower pace</p>
-  </div>
+  <p class="paper-demo__caption" aria-hidden="true" data-demo-caption>Fast pace &#8594; voice prompt &#8594; slower pace</p>
 </div>

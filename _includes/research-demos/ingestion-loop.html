@@ -1,0 +1,63 @@
+<div class="paper-figure paper-demo loop-demo" data-loop-demo role="group" aria-label="Ingestion health framework" aria-describedby="loop-demo-summary">
+  <div class="paper-demo__header">
+    <span class="paper-demo__label">The behavioral loop</span>
+    {% include research-demos/pause.html name="Ingestion health framework" %}
+  </div>
+  <span class="visually-hidden" id="loop-demo-summary">Choose a target eating behavior, sense behavior and context, interpret those signals, and intervene. The next observation closes the loop.</span>
+  <div class="loop-demo__flow" aria-hidden="true">
+    <svg class="loop-demo__rail" viewBox="0 0 400 104" preserveAspectRatio="none" fill="none" aria-hidden="true" focusable="false">
+      <defs>
+        <path id="loop-demo-forward" data-loop-leg="behavior" d="M100 26H300" vector-effect="non-scaling-stroke"/>
+        <path id="loop-demo-down" data-loop-leg="sense" d="M300 26h54a22 22 0 0 1 22 22v8a22 22 0 0 1-22 22h-54" vector-effect="non-scaling-stroke"/>
+        <path id="loop-demo-back" data-loop-leg="reason" d="M300 78H100" vector-effect="non-scaling-stroke"/>
+        <path id="loop-demo-up" data-loop-leg="feedback" d="M100 78H46a22 22 0 0 1-22-22v-8a22 22 0 0 1 22-22h54" vector-effect="non-scaling-stroke"/>
+        <!-- Tabler Icons v3.53.0, MIT. See assets/licenses/Tabler-Icons.txt. -->
+        <path id="loop-demo-caret" d="M9 6c0 -.852 .986 -1.297 1.623 -.783l.084 .076l6 6a1 1 0 0 1 .083 1.32l-.083 .094l-6 6l-.094 .083l-.077 .054l-.096 .054l-.036 .017l-.067 .027l-.108 .032l-.053 .01l-.06 .01l-.057 .004l-.059 .002l-.059 -.002l-.058 -.005l-.06 -.009l-.052 -.01l-.108 -.032l-.067 -.027l-.132 -.07l-.09 -.065l-.081 -.073l-.083 -.094l-.054 -.077l-.054 -.096l-.017 -.036l-.027 -.067l-.032 -.108l-.01 -.053l-.01 -.06l-.004 -.057l-.002 -12.059z"/>
+      </defs>
+      <g class="loop-demo__track">
+        <use href="#loop-demo-forward"/>
+        <use href="#loop-demo-down"/>
+        <use href="#loop-demo-back"/>
+        <use href="#loop-demo-up"/>
+      </g>
+      <path class="loop-demo__trail" data-loop-trail vector-effect="non-scaling-stroke"/>
+      <g class="loop-demo__runner" data-loop-runner>
+        <use href="#loop-demo-caret"/>
+      </g>
+    </svg>
+    {% assign stages = "behavior,sense,reason,feedback" | split: "," %}
+    {% for stage in stages %}
+    <svg class="loop-demo__arrow" data-loop-arrow="{{ stage }}" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <use href="#loop-demo-caret"/>
+    </svg>
+    {% endfor %}
+    <span class="loop-demo__stage" data-loop-stage="behavior">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <path d="M19 3v12h-5c-.023 -3.681 .184 -7.406 5 -12m0 12v6h-1v-3m-10 -14v17m-3 -17v3a3 3 0 1 0 6 0v-3"/>
+      </svg>
+      Behavior
+    </span>
+    <span class="loop-demo__stage" data-loop-stage="sense">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <path d="M3 12h4l3 8l4 -16l3 8h4"/>
+      </svg>
+      Sensing
+    </span>
+    <span class="loop-demo__stage" data-loop-stage="reason">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <path d="M4 4h16v2.172a2 2 0 0 1 -.586 1.414l-4.414 4.414v7l-6 2v-8.5l-4.48 -4.928a2 2 0 0 1 -.52 -1.345v-2.227"/>
+      </svg>
+      Reasoning
+    </span>
+    <span class="loop-demo__stage" data-loop-stage="feedback">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <path d="M10 5a2 2 0 0 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2 -3v-3a7 7 0 0 1 4 -6"/>
+        <path d="M9 17v1a3 3 0 0 0 6 0v-1"/>
+        <path d="M21 6.727a11.05 11.05 0 0 0 -2.794 -3.727"/>
+        <path d="M3 6.727a11.05 11.05 0 0 1 2.792 -3.727"/>
+      </svg>
+      Intervention
+    </span>
+  </div>
+  <p class="paper-demo__caption" data-demo-caption aria-hidden="true">Sensing, reasoning, and feedback in a loop.</p>
+</div>

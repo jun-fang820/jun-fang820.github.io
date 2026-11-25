@@ -29,6 +29,7 @@
       title: A Review of Behavioral Closed-Loop Paradigm from Sensing to Intervention for Ingestion Health
       summary: A review of how sensing, reasoning, and intervention connect in systems for ingestion health.
       venue: IMWUT 2025
+      demo: ingestion-loop
       image:
         src: /images/Behavior_survey.jpg
         webp: /images/behavior-survey-home.webp
@@ -48,6 +49,7 @@
         Supporting Habit Formation in Pre-Meal Photo Capture: A Longitudinal Study of Behavior Change Techniques
       summary: A longitudinal study of what helps people build a habit of taking photos before meals.
       status: Preprint
+      demo: meal-capture
       image:
         src: /images/premeal_habit.png
         webp: /images/premeal-habit-home.webp
@@ -60,6 +62,7 @@
         StoryEcho: A Generative Child-as-Actor Storytelling System for Picky-Eating Intervention
       summary: Personalized stories that respond to how children explore foods during real meals.
       status: Preprint
+      demo: story-echo
       image:
         src: /images/storyecho.png
         webp: /images/storyecho-home.webp
@@ -78,6 +81,7 @@
       title: Reconstruction and Reflection of Positive Experiences through Resurfacing Laughter-indexed Everyday Moments
       summary: Using moments of laughter to help people revisit and reflect on positive everyday experiences.
       status: Preprint
+      demo: laugh-anchor
       image:
         src: /images/laughanchor.png
         webp: /images/laughanchor-home.webp

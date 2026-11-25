@@ -76,11 +76,12 @@ redirect_from:
       <h3 id="topic-{{ topic.id }}">{{ topic.title | escape }}</h3>
       <p>{{ topic.description | escape }}</p>
     </div>
-    <ul id="research-papers-{{ topic.id }}" class="home-research-module__papers{% if topic.papers.size == 1 %} home-research-module__papers--single{% endif %}" aria-label="Selected work: {{ topic.short_title | escape }}" data-research-paper-track>
+    <ul id="research-papers-{{ topic.id }}" class="home-research-module__papers" aria-label="Selected work: {{ topic.short_title | escape }}" data-research-paper-track>
       {% for paper in topic.papers %}
-      <li class="home-research-paper{% if paper.demo == 'earinter' %} home-research-paper--demo{% endif %}">
-        {% if paper.demo == 'earinter' %}
-        {% include research-demos/earinter.html %}
+      <li class="home-research-paper{% if paper.demo %} home-research-paper--demo{% endif %}">
+        {% if paper.demo %}
+        {% assign demo_include = paper.demo | prepend: 'research-demos/' | append: '.html' %}
+        {% include {{ demo_include }} %}
         {% else %}
         {% include paper-figure.html class_name="paper-figure home-research-paper__image" src=paper.image.src preview=paper.image.webp label=paper.title alt=paper.image.alt viewer=true %}
         {% endif %}

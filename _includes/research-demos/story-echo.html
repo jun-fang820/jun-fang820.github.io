@@ -1,0 +1,64 @@
+<div class="paper-figure paper-demo story-demo" data-story-demo data-scene="intro" role="group" aria-label="StoryEcho picture book" aria-describedby="story-demo-summary">
+  <div class="paper-demo__header">
+    <span class="paper-demo__label">Narrative mirroring</span>
+    <span class="paper-demo__index" data-story-index aria-hidden="true">01 / 03</span>
+  </div>
+  <span class="visually-hidden" id="story-demo-summary">A child's personalized story models sensory exploration. After the real meal, the child and caregiver reflect on what happened, and that experience shapes the next scene.</span>
+  <div class="story-demo__spread">
+    <svg class="story-demo__artwork" viewBox="0 0 190 112" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+      <defs>
+        <!-- The viewBox crops and masks use the original figure's pixel coordinates. -->
+        <image id="story-demo-paper-art" href="{{ '/images/storyecho.png' | relative_url }}" width="2160" height="907"/>
+        <clipPath id="story-demo-touch-outline">
+          <path d="M744 176H826V193L835 207V236L830 244V301L826 309V366H744Z"/>
+        </clipPath>
+        <clipPath id="story-demo-smell-outline">
+          <path d="M835.5 105H924V179L913 205V297H849V232L835.5 227Z"/>
+        </clipPath>
+      </defs>
+      <g class="story-demo__art story-demo__art--intro">
+        <rect width="190" height="112" fill="#fffffe"/>
+        <path d="M0 0h48v18a27 27 0 0 1-27 27H0z M190 112h-41a21 21 0 0 1 21-21h20z" fill="#e6f1e7"/>
+        <path d="M43 35v8m-4-4h8m105 18v9m-4.5-4.5h9" fill="none" stroke="#b68b62" stroke-width="1.1" stroke-linecap="round"/>
+        <svg x="62" y="6" width="66" height="100" viewBox="373 159 130 204" overflow="hidden">
+          <use href="#story-demo-paper-art"/>
+        </svg>
+      </g>
+      <g class="story-demo__art story-demo__art--meal">
+        <rect width="190" height="112" fill="#fefbf7"/>
+        <path d="M0 0h38v17A27 27 0 0 1 11 44H0z M190 112h-37a20 20 0 0 1 20-20h17z" fill="#f1e5d8"/>
+        <svg x="50" y="4" width="90" height="104" viewBox="1087 439 208 262" overflow="hidden">
+          <use href="#story-demo-paper-art"/>
+        </svg>
+      </g>
+      <g class="story-demo__art story-demo__art--ending">
+        <rect width="190" height="112" fill="#fbf0d9"/>
+        <path d="M0 0h41v16a28 28 0 0 1-28 28H0z M190 112h-44a23 23 0 0 1 23-23h21z" fill="#f4e1bc"/>
+        <path d="M45 48v9m-4.5-4.5h9m96-18v10m-5-5h10" fill="none" stroke="#b68b62" stroke-width="1.2" stroke-linecap="round"/>
+      </g>
+      <svg class="story-demo__art story-demo__art--touch" x="69" y="8" width="52" height="97" viewBox="745 176 91 190" overflow="hidden">
+        <use href="#story-demo-paper-art" clip-path="url(#story-demo-touch-outline)"/>
+      </svg>
+      <svg class="story-demo__art story-demo__art--smell" x="70" y="8" width="50" height="96" viewBox="832 106 93 190" overflow="hidden">
+        <use href="#story-demo-paper-art" clip-path="url(#story-demo-smell-outline)"/>
+      </svg>
+    </svg>
+    <div class="story-demo__page" role="status">
+      <span class="paper-demo__kicker" data-story-kicker>Before the meal</span>
+      <p class="paper-demo__prose" data-story-copy>The explorer wonders how a carrot feels.</p>
+    </div>
+  </div>
+  <div class="story-demo__controls">
+    <div class="paper-demo__choices" data-story-controls="intro">
+      <button class="paper-demo__action" type="button" data-story-action="meal" disabled>Go to the meal <span aria-hidden="true">&#8594;</span></button>
+    </div>
+    <div class="paper-demo__choices" data-story-controls="meal" role="group" aria-label="What happened at the meal?" hidden>
+      <button class="paper-demo__action" type="button" data-story-action="touch" disabled>Touched it</button>
+      <button class="paper-demo__action" type="button" data-story-action="smell" disabled>Smelled it</button>
+    </div>
+    <div class="paper-demo__choices" data-story-controls="ending" hidden>
+      <button class="paper-demo__action" type="button" data-story-action="intro" disabled>Back to the story</button>
+    </div>
+    <span class="story-demo__route" aria-hidden="true">Story &#8594; Meal &#8594; Story</span>
+  </div>
+</div>
