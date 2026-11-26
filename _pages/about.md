@@ -59,7 +59,6 @@ redirect_from:
       {% endif %}
       {% endfor %}
     </div>
-    <a class="home-all-papers" href="{{ '/publications/' | relative_url }}">All publications <span aria-hidden="true">&rarr;</span></a>
     <nav class="home-research-tabs" aria-label="Research directions" data-research-tablist>
       {% for topic in site.data.research %}
       <a href="#research-{{ topic.id }}" id="tab-{{ topic.id }}">{{ topic.short_title | escape }}</a>
@@ -112,6 +111,9 @@ redirect_from:
     </div>
   </section>
   {% endfor %}
+  </div>
+  <div class="home-research-footer">
+    <a class="home-all-papers" href="{{ '/publications/' | relative_url }}">All publications <span aria-hidden="true">&rarr;</span></a>
   </div>
   {% include research-viewer.html %}
 </section>

@@ -94,8 +94,8 @@
 
   .home-research-heading {
     display: grid;
-    grid-template-columns: auto minmax(0, 1fr) auto;
-    grid-template-areas: "title plate plate" "tabs tabs publications";
+    grid-template-columns: auto minmax(0, 1fr);
+    grid-template-areas: "title plate" "tabs tabs";
     align-items: center;
     gap: 0.65rem 1.35rem;
     margin-bottom: 0;
@@ -104,11 +104,6 @@
     h2 {
       grid-area: title;
       scroll-margin-top: 3.5rem;
-    }
-
-    .home-all-papers {
-      grid-area: publications;
-      justify-self: end;
     }
   }
 
@@ -146,6 +141,12 @@
     &[data-active] {
       opacity: 1;
     }
+  }
+
+  .home-research-footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0.5rem;
   }
 
   .home-all-papers {
@@ -429,9 +430,9 @@
     }
 
     .home-research-heading {
-      grid-template-columns: minmax(0, 1fr) auto;
-      grid-template-areas: "title publications" "plate plate" "tabs tabs";
-      gap: 0.5rem 1.1rem;
+      grid-template-columns: minmax(0, 1fr);
+      grid-template-areas: "title" "plate" "tabs";
+      gap: 0.5rem;
 
       h2 {
         scroll-margin-top: 1rem;
