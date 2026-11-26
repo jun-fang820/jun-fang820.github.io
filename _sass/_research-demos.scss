@@ -16,7 +16,7 @@
     min-height: 11.5rem;
     padding: 0.25rem clamp(0.55rem, 1.2vw, 0.95rem) 0.4rem;
     border-color: rgba(105, 86, 66, 0.13);
-    background: linear-gradient(110deg, rgba(255, 255, 255, 0.18) 42%, var(--demo-wash));
+    background: linear-gradient(110deg, rgba(255, 255, 255, 0.18) 42%, var(--demo-wash)), #fdfbf7;
     color: var(--site-muted);
 
     &__header {

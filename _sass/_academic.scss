@@ -1,8 +1,12 @@
 .home-page,
 .publications-page {
-  --site-paper: #faf7f0;
+  --site-paper: #fff;
   --site-muted: #5f584f;
-  background: radial-gradient(ellipse at 84% 0, #f2e7d8 0, transparent 48rem), var(--site-paper);
+  background:
+    linear-gradient(90deg, transparent, var(--site-paper) 20%, var(--site-paper) 82%, transparent),
+    linear-gradient(180deg, transparent 8rem, var(--site-paper) 50rem),
+    radial-gradient(circle, rgba(71, 76, 82, 0.16) 0.6px, transparent 0.95px) 0 0 / 19px 19px,
+    var(--site-paper);
   color: var(--site-ink);
   font-family: var(--site-sans);
 
